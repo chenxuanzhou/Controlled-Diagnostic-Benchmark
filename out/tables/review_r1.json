@@ -1,0 +1,2248 @@
+{
+ "v1": {
+  "paired_n": 88,
+  "value_only_substitutions": {
+   "ledger_rows_available": {
+    "P-indistinct|within_eps": 9,
+    "P-intensity|outside": 26,
+    "P-scope|outside": 19,
+    "P-scope|within_eps": 2
+   },
+   "eval_tb": {
+    "P-indistinct|within_eps": 9,
+    "P-intensity|outside": 26,
+    "P-scope|outside": 19,
+    "P-scope|within_eps": 2
+   }
+  },
+  "conditions": {
+   "C0": {
+    "strict_paired": {
+     "k": 57,
+     "n": 88,
+     "acc": 0.6477,
+     "ci": [
+      0.544,
+      0.739
+     ]
+    },
+    "admissible_paired": {
+     "k": 75,
+     "n": 88,
+     "acc": 0.8523,
+     "ci": [
+      0.763,
+      0.912
+     ]
+    },
+    "strict_full": {
+     "k": 140,
+     "n": 220,
+     "acc": 0.6364,
+     "ci": [
+      0.571,
+      0.697
+     ]
+    },
+    "admissible_full": {
+     "k": 181,
+     "n": 220,
+     "acc": 0.8227,
+     "ci": [
+      0.767,
+      0.868
+     ]
+    },
+    "by_type_paired": {
+     "P-consolidation": {
+      "strict": {
+       "k": 15,
+       "n": 20,
+       "acc": 0.75,
+       "ci": [
+        0.531,
+        0.888
+       ]
+      },
+      "admissible": {
+       "k": 15,
+       "n": 20,
+       "acc": 0.75,
+       "ci": [
+        0.531,
+        0.888
+       ]
+      }
+     },
+     "P-crosscompany": {
+      "strict": {
+       "k": 4,
+       "n": 5,
+       "acc": 0.8,
+       "ci": [
+        0.376,
+        0.964
+       ]
+      },
+      "admissible": {
+       "k": 5,
+       "n": 5,
+       "acc": 1.0,
+       "ci": [
+        0.566,
+        1.0
+       ]
+      }
+     },
+     "P-indistinct": {
+      "strict": {
+       "k": 0,
+       "n": 4,
+       "acc": 0.0,
+       "ci": [
+        0.0,
+        0.49
+       ]
+      },
+      "admissible": {
+       "k": 4,
+       "n": 4,
+       "acc": 1.0,
+       "ci": [
+        0.51,
+        1.0
+       ]
+      }
+     },
+     "P-intensity": {
+      "strict": {
+       "k": 4,
+       "n": 10,
+       "acc": 0.4,
+       "ci": [
+        0.168,
+        0.687
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 10,
+       "acc": 1.0,
+       "ci": [
+        0.722,
+        1.0
+       ]
+      }
+     },
+     "P-magnitude": {
+      "strict": {
+       "k": 10,
+       "n": 13,
+       "acc": 0.7692,
+       "ci": [
+        0.497,
+        0.918
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 13,
+       "acc": 0.7692,
+       "ci": [
+        0.497,
+        0.918
+       ]
+      }
+     },
+     "P-none": {
+      "strict": {
+       "k": 17,
+       "n": 22,
+       "acc": 0.7727,
+       "ci": [
+        0.566,
+        0.899
+       ]
+      },
+      "admissible": {
+       "k": 17,
+       "n": 22,
+       "acc": 0.7727,
+       "ci": [
+        0.566,
+        0.899
+       ]
+      }
+     },
+     "P-null": {
+      "strict": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      }
+     },
+     "P-scope": {
+      "strict": {
+       "k": 2,
+       "n": 9,
+       "acc": 0.2222,
+       "ci": [
+        0.063,
+        0.547
+       ]
+      },
+      "admissible": {
+       "k": 9,
+       "n": 9,
+       "acc": 1.0,
+       "ci": [
+        0.701,
+        1.0
+       ]
+      }
+     },
+     "P-unit": {
+      "strict": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      }
+     }
+    },
+    "nc_rate_by_type_paired": {
+     "P-consolidation": [
+      15,
+      20
+     ],
+     "P-crosscompany": [
+      4,
+      5
+     ],
+     "P-indistinct": [
+      0,
+      4
+     ],
+     "P-intensity": [
+      4,
+      10
+     ],
+     "P-magnitude": [
+      3,
+      13
+     ],
+     "P-none": [
+      5,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      2,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "supported_rate_by_type_paired": {
+     "P-consolidation": [
+      5,
+      20
+     ],
+     "P-crosscompany": [
+      0,
+      5
+     ],
+     "P-indistinct": [
+      4,
+      4
+     ],
+     "P-intensity": [
+      0,
+      10
+     ],
+     "P-magnitude": [
+      5,
+      13
+     ],
+     "P-none": [
+      17,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      0,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "nc_on_items_where_nc_inadmissible": [
+     8,
+     44
+    ]
+   },
+   "C1": {
+    "strict_paired": {
+     "k": 64,
+     "n": 88,
+     "acc": 0.7273,
+     "ci": [
+      0.626,
+      0.809
+     ]
+    },
+    "admissible_paired": {
+     "k": 78,
+     "n": 88,
+     "acc": 0.8864,
+     "ci": [
+      0.803,
+      0.937
+     ]
+    },
+    "strict_full": {
+     "k": 148,
+     "n": 221,
+     "acc": 0.6697,
+     "ci": [
+      0.605,
+      0.728
+     ]
+    },
+    "admissible_full": {
+     "k": 185,
+     "n": 221,
+     "acc": 0.8371,
+     "ci": [
+      0.783,
+      0.88
+     ]
+    },
+    "by_type_paired": {
+     "P-consolidation": {
+      "strict": {
+       "k": 17,
+       "n": 20,
+       "acc": 0.85,
+       "ci": [
+        0.64,
+        0.948
+       ]
+      },
+      "admissible": {
+       "k": 17,
+       "n": 20,
+       "acc": 0.85,
+       "ci": [
+        0.64,
+        0.948
+       ]
+      }
+     },
+     "P-crosscompany": {
+      "strict": {
+       "k": 4,
+       "n": 5,
+       "acc": 0.8,
+       "ci": [
+        0.376,
+        0.964
+       ]
+      },
+      "admissible": {
+       "k": 5,
+       "n": 5,
+       "acc": 1.0,
+       "ci": [
+        0.566,
+        1.0
+       ]
+      }
+     },
+     "P-indistinct": {
+      "strict": {
+       "k": 1,
+       "n": 4,
+       "acc": 0.25,
+       "ci": [
+        0.046,
+        0.699
+       ]
+      },
+      "admissible": {
+       "k": 3,
+       "n": 4,
+       "acc": 0.75,
+       "ci": [
+        0.301,
+        0.954
+       ]
+      }
+     },
+     "P-intensity": {
+      "strict": {
+       "k": 5,
+       "n": 10,
+       "acc": 0.5,
+       "ci": [
+        0.237,
+        0.763
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 10,
+       "acc": 1.0,
+       "ci": [
+        0.722,
+        1.0
+       ]
+      }
+     },
+     "P-magnitude": {
+      "strict": {
+       "k": 10,
+       "n": 13,
+       "acc": 0.7692,
+       "ci": [
+        0.497,
+        0.918
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 13,
+       "acc": 0.7692,
+       "ci": [
+        0.497,
+        0.918
+       ]
+      }
+     },
+     "P-none": {
+      "strict": {
+       "k": 19,
+       "n": 22,
+       "acc": 0.8636,
+       "ci": [
+        0.667,
+        0.953
+       ]
+      },
+      "admissible": {
+       "k": 19,
+       "n": 22,
+       "acc": 0.8636,
+       "ci": [
+        0.667,
+        0.953
+       ]
+      }
+     },
+     "P-null": {
+      "strict": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      }
+     },
+     "P-scope": {
+      "strict": {
+       "k": 3,
+       "n": 9,
+       "acc": 0.3333,
+       "ci": [
+        0.121,
+        0.646
+       ]
+      },
+      "admissible": {
+       "k": 9,
+       "n": 9,
+       "acc": 1.0,
+       "ci": [
+        0.701,
+        1.0
+       ]
+      }
+     },
+     "P-unit": {
+      "strict": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      }
+     }
+    },
+    "nc_rate_by_type_paired": {
+     "P-consolidation": [
+      17,
+      20
+     ],
+     "P-crosscompany": [
+      4,
+      5
+     ],
+     "P-indistinct": [
+      1,
+      4
+     ],
+     "P-intensity": [
+      5,
+      10
+     ],
+     "P-magnitude": [
+      2,
+      13
+     ],
+     "P-none": [
+      3,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      3,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "supported_rate_by_type_paired": {
+     "P-consolidation": [
+      3,
+      20
+     ],
+     "P-crosscompany": [
+      0,
+      5
+     ],
+     "P-indistinct": [
+      3,
+      4
+     ],
+     "P-intensity": [
+      0,
+      10
+     ],
+     "P-magnitude": [
+      5,
+      13
+     ],
+     "P-none": [
+      19,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      0,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "nc_on_items_where_nc_inadmissible": [
+     6,
+     44
+    ]
+   },
+   "C3": {
+    "strict_paired": {
+     "k": 53,
+     "n": 88,
+     "acc": 0.6023,
+     "ci": [
+      0.498,
+      0.698
+     ]
+    },
+    "admissible_paired": {
+     "k": 72,
+     "n": 88,
+     "acc": 0.8182,
+     "ci": [
+      0.725,
+      0.885
+     ]
+    },
+    "strict_full": {
+     "k": 66,
+     "n": 106,
+     "acc": 0.6226,
+     "ci": [
+      0.528,
+      0.709
+     ]
+    },
+    "admissible_full": {
+     "k": 87,
+     "n": 106,
+     "acc": 0.8208,
+     "ci": [
+      0.737,
+      0.882
+     ]
+    },
+    "by_type_paired": {
+     "P-consolidation": {
+      "strict": {
+       "k": 11,
+       "n": 20,
+       "acc": 0.55,
+       "ci": [
+        0.342,
+        0.742
+       ]
+      },
+      "admissible": {
+       "k": 11,
+       "n": 20,
+       "acc": 0.55,
+       "ci": [
+        0.342,
+        0.742
+       ]
+      }
+     },
+     "P-crosscompany": {
+      "strict": {
+       "k": 4,
+       "n": 5,
+       "acc": 0.8,
+       "ci": [
+        0.376,
+        0.964
+       ]
+      },
+      "admissible": {
+       "k": 5,
+       "n": 5,
+       "acc": 1.0,
+       "ci": [
+        0.566,
+        1.0
+       ]
+      }
+     },
+     "P-indistinct": {
+      "strict": {
+       "k": 0,
+       "n": 4,
+       "acc": 0.0,
+       "ci": [
+        0.0,
+        0.49
+       ]
+      },
+      "admissible": {
+       "k": 4,
+       "n": 4,
+       "acc": 1.0,
+       "ci": [
+        0.51,
+        1.0
+       ]
+      }
+     },
+     "P-intensity": {
+      "strict": {
+       "k": 3,
+       "n": 10,
+       "acc": 0.3,
+       "ci": [
+        0.108,
+        0.603
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 10,
+       "acc": 1.0,
+       "ci": [
+        0.722,
+        1.0
+       ]
+      }
+     },
+     "P-magnitude": {
+      "strict": {
+       "k": 8,
+       "n": 13,
+       "acc": 0.6154,
+       "ci": [
+        0.355,
+        0.823
+       ]
+      },
+      "admissible": {
+       "k": 8,
+       "n": 13,
+       "acc": 0.6154,
+       "ci": [
+        0.355,
+        0.823
+       ]
+      }
+     },
+     "P-none": {
+      "strict": {
+       "k": 20,
+       "n": 22,
+       "acc": 0.9091,
+       "ci": [
+        0.722,
+        0.975
+       ]
+      },
+      "admissible": {
+       "k": 20,
+       "n": 22,
+       "acc": 0.9091,
+       "ci": [
+        0.722,
+        0.975
+       ]
+      }
+     },
+     "P-null": {
+      "strict": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      }
+     },
+     "P-scope": {
+      "strict": {
+       "k": 2,
+       "n": 9,
+       "acc": 0.2222,
+       "ci": [
+        0.063,
+        0.547
+       ]
+      },
+      "admissible": {
+       "k": 9,
+       "n": 9,
+       "acc": 1.0,
+       "ci": [
+        0.701,
+        1.0
+       ]
+      }
+     },
+     "P-unit": {
+      "strict": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 3,
+       "n": 3,
+       "acc": 1.0,
+       "ci": [
+        0.438,
+        1.0
+       ]
+      }
+     }
+    },
+    "nc_rate_by_type_paired": {
+     "P-consolidation": [
+      11,
+      20
+     ],
+     "P-crosscompany": [
+      4,
+      5
+     ],
+     "P-indistinct": [
+      0,
+      4
+     ],
+     "P-intensity": [
+      3,
+      10
+     ],
+     "P-magnitude": [
+      3,
+      13
+     ],
+     "P-none": [
+      2,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      2,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "supported_rate_by_type_paired": {
+     "P-consolidation": [
+      9,
+      20
+     ],
+     "P-crosscompany": [
+      0,
+      5
+     ],
+     "P-indistinct": [
+      4,
+      4
+     ],
+     "P-intensity": [
+      0,
+      10
+     ],
+     "P-magnitude": [
+      4,
+      13
+     ],
+     "P-none": [
+      20,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      0,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "nc_on_items_where_nc_inadmissible": [
+     5,
+     44
+    ]
+   },
+   "C4": {
+    "strict_paired": {
+     "k": 56,
+     "n": 88,
+     "acc": 0.6364,
+     "ci": [
+      0.532,
+      0.729
+     ]
+    },
+    "admissible_paired": {
+     "k": 69,
+     "n": 88,
+     "acc": 0.7841,
+     "ci": [
+      0.687,
+      0.857
+     ]
+    },
+    "strict_full": {
+     "k": 59,
+     "n": 99,
+     "acc": 0.596,
+     "ci": [
+      0.497,
+      0.687
+     ]
+    },
+    "admissible_full": {
+     "k": 74,
+     "n": 99,
+     "acc": 0.7475,
+     "ci": [
+      0.654,
+      0.823
+     ]
+    },
+    "by_type_paired": {
+     "P-consolidation": {
+      "strict": {
+       "k": 14,
+       "n": 20,
+       "acc": 0.7,
+       "ci": [
+        0.481,
+        0.855
+       ]
+      },
+      "admissible": {
+       "k": 14,
+       "n": 20,
+       "acc": 0.7,
+       "ci": [
+        0.481,
+        0.855
+       ]
+      }
+     },
+     "P-crosscompany": {
+      "strict": {
+       "k": 2,
+       "n": 5,
+       "acc": 0.4,
+       "ci": [
+        0.118,
+        0.769
+       ]
+      },
+      "admissible": {
+       "k": 5,
+       "n": 5,
+       "acc": 1.0,
+       "ci": [
+        0.566,
+        1.0
+       ]
+      }
+     },
+     "P-indistinct": {
+      "strict": {
+       "k": 0,
+       "n": 4,
+       "acc": 0.0,
+       "ci": [
+        0.0,
+        0.49
+       ]
+      },
+      "admissible": {
+       "k": 4,
+       "n": 4,
+       "acc": 1.0,
+       "ci": [
+        0.51,
+        1.0
+       ]
+      }
+     },
+     "P-intensity": {
+      "strict": {
+       "k": 5,
+       "n": 10,
+       "acc": 0.5,
+       "ci": [
+        0.237,
+        0.763
+       ]
+      },
+      "admissible": {
+       "k": 10,
+       "n": 10,
+       "acc": 1.0,
+       "ci": [
+        0.722,
+        1.0
+       ]
+      }
+     },
+     "P-magnitude": {
+      "strict": {
+       "k": 8,
+       "n": 13,
+       "acc": 0.6154,
+       "ci": [
+        0.355,
+        0.823
+       ]
+      },
+      "admissible": {
+       "k": 8,
+       "n": 13,
+       "acc": 0.6154,
+       "ci": [
+        0.355,
+        0.823
+       ]
+      }
+     },
+     "P-none": {
+      "strict": {
+       "k": 15,
+       "n": 22,
+       "acc": 0.6818,
+       "ci": [
+        0.473,
+        0.836
+       ]
+      },
+      "admissible": {
+       "k": 15,
+       "n": 22,
+       "acc": 0.6818,
+       "ci": [
+        0.473,
+        0.836
+       ]
+      }
+     },
+     "P-null": {
+      "strict": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      },
+      "admissible": {
+       "k": 2,
+       "n": 2,
+       "acc": 1.0,
+       "ci": [
+        0.342,
+        1.0
+       ]
+      }
+     },
+     "P-scope": {
+      "strict": {
+       "k": 8,
+       "n": 9,
+       "acc": 0.8889,
+       "ci": [
+        0.565,
+        0.98
+       ]
+      },
+      "admissible": {
+       "k": 9,
+       "n": 9,
+       "acc": 1.0,
+       "ci": [
+        0.701,
+        1.0
+       ]
+      }
+     },
+     "P-unit": {
+      "strict": {
+       "k": 2,
+       "n": 3,
+       "acc": 0.6667,
+       "ci": [
+        0.208,
+        0.939
+       ]
+      },
+      "admissible": {
+       "k": 2,
+       "n": 3,
+       "acc": 0.6667,
+       "ci": [
+        0.208,
+        0.939
+       ]
+      }
+     }
+    },
+    "nc_rate_by_type_paired": {
+     "P-consolidation": [
+      14,
+      20
+     ],
+     "P-crosscompany": [
+      2,
+      5
+     ],
+     "P-indistinct": [
+      0,
+      4
+     ],
+     "P-intensity": [
+      5,
+      10
+     ],
+     "P-magnitude": [
+      5,
+      13
+     ],
+     "P-none": [
+      7,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      8,
+      9
+     ],
+     "P-unit": [
+      1,
+      3
+     ]
+    },
+    "supported_rate_by_type_paired": {
+     "P-consolidation": [
+      6,
+      20
+     ],
+     "P-crosscompany": [
+      0,
+      5
+     ],
+     "P-indistinct": [
+      4,
+      4
+     ],
+     "P-intensity": [
+      0,
+      10
+     ],
+     "P-magnitude": [
+      4,
+      13
+     ],
+     "P-none": [
+      15,
+      22
+     ],
+     "P-null": [
+      0,
+      2
+     ],
+     "P-scope": [
+      0,
+      9
+     ],
+     "P-unit": [
+      0,
+      3
+     ]
+    },
+    "nc_on_items_where_nc_inadmissible": [
+     13,
+     44
+    ]
+   }
+  },
+  "constant_NC_baseline_paired": {
+   "strict": 0.5455,
+   "admissible": 0.5
+  },
+  "mcnemar": {
+   "C1_vs_C3|all|strict": {
+    "a_only": 13,
+    "b_only": 2,
+    "p": 0.0074
+   },
+   "C1_vs_C3|all|admissible": {
+    "a_only": 9,
+    "b_only": 3,
+    "p": 0.146
+   },
+   "C1_vs_C3|P-none|strict": {
+    "a_only": 0,
+    "b_only": 1,
+    "p": 1.0
+   },
+   "C1_vs_C3|P-scope|strict": {
+    "a_only": 1,
+    "b_only": 0,
+    "p": 1.0
+   },
+   "C1_vs_C4|all|strict": {
+    "a_only": 13,
+    "b_only": 5,
+    "p": 0.0963
+   },
+   "C1_vs_C4|all|admissible": {
+    "a_only": 10,
+    "b_only": 1,
+    "p": 0.0117
+   },
+   "C1_vs_C4|P-none|strict": {
+    "a_only": 4,
+    "b_only": 0,
+    "p": 0.125
+   },
+   "C1_vs_C4|P-scope|strict": {
+    "a_only": 0,
+    "b_only": 5,
+    "p": 0.0625
+   },
+   "C3_vs_C4|all|strict": {
+    "a_only": 10,
+    "b_only": 13,
+    "p": 0.6776
+   },
+   "C3_vs_C4|all|admissible": {
+    "a_only": 8,
+    "b_only": 5,
+    "p": 0.5811
+   },
+   "C3_vs_C4|P-none|strict": {
+    "a_only": 5,
+    "b_only": 0,
+    "p": 0.0625
+   },
+   "C3_vs_C4|P-scope|strict": {
+    "a_only": 0,
+    "b_only": 6,
+    "p": 0.0312
+   },
+   "C0_vs_C1|all|strict": {
+    "a_only": 0,
+    "b_only": 7,
+    "p": 0.0156
+   },
+   "C0_vs_C1|all|admissible": {
+    "a_only": 1,
+    "b_only": 4,
+    "p": 0.375
+   },
+   "C0_vs_C1|P-none|strict": {
+    "a_only": 0,
+    "b_only": 2,
+    "p": 0.5
+   },
+   "C0_vs_C1|P-scope|strict": {
+    "a_only": 0,
+    "b_only": 1,
+    "p": 1.0
+   }
+  },
+  "ablation": {
+   "n": 99,
+   "C3": {
+    "strict": {
+     "k": 61,
+     "n": 99,
+     "acc": 0.6162,
+     "ci": [
+      0.518,
+      0.706
+     ]
+    },
+    "admissible": {
+     "k": 81,
+     "n": 99,
+     "acc": 0.8182,
+     "ci": [
+      0.731,
+      0.882
+     ]
+    },
+    "nc_outputs": 28
+   },
+   "C3-calc": {
+    "strict": {
+     "k": 57,
+     "n": 99,
+     "acc": 0.5758,
+     "ci": [
+      0.477,
+      0.668
+     ]
+    },
+    "admissible": {
+     "k": 76,
+     "n": 99,
+     "acc": 0.7677,
+     "ci": [
+      0.675,
+      0.84
+     ]
+    },
+    "nc_outputs": 33
+   },
+   "C3-filing_lookup": {
+    "strict": {
+     "k": 51,
+     "n": 99,
+     "acc": 0.5152,
+     "ci": [
+      0.418,
+      0.611
+     ]
+    },
+    "admissible": {
+     "k": 47,
+     "n": 99,
+     "acc": 0.4747,
+     "ci": [
+      0.379,
+      0.572
+     ]
+    },
+    "nc_outputs": 96
+   },
+   "constant_NC_strict": 0.5253,
+   "mcnemar_C3_vs_C3-calc|strict": [
+    11,
+    7,
+    0.4807
+   ],
+   "mcnemar_C3_vs_C3-calc|admissible": [
+    10,
+    5,
+    0.3018
+   ],
+   "mcnemar_C3_vs_C3-filing_lookup|strict": [
+    39,
+    29,
+    0.275
+   ],
+   "mcnemar_C3_vs_C3-filing_lookup|admissible": [
+    44,
+    10,
+    0.0
+   ]
+  },
+  "p_scope_contradicted_reasoning_names_sibling": {
+   "C0": [
+    11,
+    15
+   ],
+   "C1": [
+    11,
+    13
+   ]
+  }
+ },
+ "v2": {
+  "n_items": 95,
+  "answered": {
+   "C1": 92,
+   "C3": 93,
+   "C4": 90
+  },
+  "paired_n": 89,
+  "C1": {
+   "own|P-none": {
+    "k": 19,
+    "n": 22,
+    "acc": 0.8636,
+    "ci": [
+     0.667,
+     0.953
+    ],
+    "dist": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 3
+    }
+   },
+   "own|P-scope": {
+    "k": 22,
+    "n": 25,
+    "acc": 0.88,
+    "ci": [
+     0.7,
+     0.958
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 22,
+     "SUPPORTED": 3
+    }
+   },
+   "own|P-scope|identical_value": {
+    "k": 0,
+    "n": 3,
+    "acc": 0.0,
+    "ci": [
+     0.0,
+     0.562
+    ],
+    "dist": {
+     "SUPPORTED": 3
+    }
+   },
+   "own|P-scope|different_value": {
+    "k": 22,
+    "n": 22,
+    "acc": 1.0,
+    "ci": [
+     0.851,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 22
+    }
+   },
+   "own|P-indistinct": {
+    "k": 10,
+    "n": 30,
+    "acc": 0.3333,
+    "ci": [
+     0.192,
+     0.512
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 10,
+     "SUPPORTED": 20
+    }
+   },
+   "own|P-indistinct|identical_value": {
+    "k": 7,
+    "n": 26,
+    "acc": 0.2692,
+    "ci": [
+     0.137,
+     0.461
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 7,
+     "SUPPORTED": 19
+    }
+   },
+   "own|P-indistinct|different_value": {
+    "k": 3,
+    "n": 4,
+    "acc": 0.75,
+    "ci": [
+     0.301,
+     0.954
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 3,
+     "SUPPORTED": 1
+    }
+   },
+   "own|P-intensity": {
+    "k": 14,
+    "n": 15,
+    "acc": 0.9333,
+    "ci": [
+     0.702,
+     0.988
+    ],
+    "dist": {
+     "SUPPORTED": 1,
+     "NOT_COMPARABLE": 14
+    }
+   },
+   "own|all_substitutions": {
+    "k": 46,
+    "n": 70,
+    "acc": 0.6571,
+    "ci": [
+     0.54,
+     0.758
+    ],
+    "affirmed": 24,
+    "mismatch_named": 46,
+    "mismatch_named_exact": 35
+   },
+   "paired|P-none": {
+    "k": 19,
+    "n": 22,
+    "acc": 0.8636,
+    "ci": [
+     0.667,
+     0.953
+    ],
+    "dist": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 3
+    }
+   },
+   "paired|P-scope": {
+    "k": 21,
+    "n": 24,
+    "acc": 0.875,
+    "ci": [
+     0.69,
+     0.957
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 21,
+     "SUPPORTED": 3
+    }
+   },
+   "paired|P-scope|identical_value": {
+    "k": 0,
+    "n": 3,
+    "acc": 0.0,
+    "ci": [
+     0.0,
+     0.562
+    ],
+    "dist": {
+     "SUPPORTED": 3
+    }
+   },
+   "paired|P-scope|different_value": {
+    "k": 21,
+    "n": 21,
+    "acc": 1.0,
+    "ci": [
+     0.845,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 21
+    }
+   },
+   "paired|P-indistinct": {
+    "k": 9,
+    "n": 29,
+    "acc": 0.3103,
+    "ci": [
+     0.173,
+     0.492
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 9,
+     "SUPPORTED": 20
+    }
+   },
+   "paired|P-indistinct|identical_value": {
+    "k": 6,
+    "n": 25,
+    "acc": 0.24,
+    "ci": [
+     0.115,
+     0.434
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 6,
+     "SUPPORTED": 19
+    }
+   },
+   "paired|P-indistinct|different_value": {
+    "k": 3,
+    "n": 4,
+    "acc": 0.75,
+    "ci": [
+     0.301,
+     0.954
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 3,
+     "SUPPORTED": 1
+    }
+   },
+   "paired|P-intensity": {
+    "k": 13,
+    "n": 14,
+    "acc": 0.9286,
+    "ci": [
+     0.685,
+     0.987
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 13,
+     "SUPPORTED": 1
+    }
+   },
+   "paired|all_substitutions": {
+    "k": 43,
+    "n": 67,
+    "acc": 0.6418,
+    "ci": [
+     0.522,
+     0.746
+    ],
+    "affirmed": 24,
+    "mismatch_named": 43,
+    "mismatch_named_exact": 33
+   }
+  },
+  "C3": {
+   "own|P-none": {
+    "k": 22,
+    "n": 23,
+    "acc": 0.9565,
+    "ci": [
+     0.79,
+     0.992
+    ],
+    "dist": {
+     "SUPPORTED": 22,
+     "NOT_COMPARABLE": 1
+    }
+   },
+   "own|P-scope": {
+    "k": 11,
+    "n": 25,
+    "acc": 0.44,
+    "ci": [
+     0.267,
+     0.629
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 11,
+     "NOT_APPLICABLE": 11,
+     "SUPPORTED": 3
+    }
+   },
+   "own|P-scope|identical_value": {
+    "k": 0,
+    "n": 3,
+    "acc": 0.0,
+    "ci": [
+     0.0,
+     0.562
+    ],
+    "dist": {
+     "SUPPORTED": 3
+    }
+   },
+   "own|P-scope|different_value": {
+    "k": 11,
+    "n": 22,
+    "acc": 0.5,
+    "ci": [
+     0.307,
+     0.693
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 11,
+     "NOT_APPLICABLE": 11
+    }
+   },
+   "own|P-indistinct": {
+    "k": 11,
+    "n": 30,
+    "acc": 0.3667,
+    "ci": [
+     0.219,
+     0.545
+    ],
+    "dist": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 11
+    }
+   },
+   "own|P-indistinct|identical_value": {
+    "k": 7,
+    "n": 26,
+    "acc": 0.2692,
+    "ci": [
+     0.137,
+     0.461
+    ],
+    "dist": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 7
+    }
+   },
+   "own|P-indistinct|different_value": {
+    "k": 4,
+    "n": 4,
+    "acc": 1.0,
+    "ci": [
+     0.51,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 4
+    }
+   },
+   "own|P-intensity": {
+    "k": 12,
+    "n": 15,
+    "acc": 0.8,
+    "ci": [
+     0.548,
+     0.93
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 12,
+     "NOT_APPLICABLE": 3
+    }
+   },
+   "own|all_substitutions": {
+    "k": 34,
+    "n": 70,
+    "acc": 0.4857,
+    "ci": [
+     0.372,
+     0.6
+    ],
+    "affirmed": 22,
+    "mismatch_named": 34,
+    "mismatch_named_exact": 25
+   },
+   "paired|P-none": {
+    "k": 21,
+    "n": 22,
+    "acc": 0.9545,
+    "ci": [
+     0.782,
+     0.992
+    ],
+    "dist": {
+     "SUPPORTED": 21,
+     "NOT_COMPARABLE": 1
+    }
+   },
+   "paired|P-scope": {
+    "k": 11,
+    "n": 24,
+    "acc": 0.4583,
+    "ci": [
+     0.279,
+     0.649
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 11,
+     "NOT_APPLICABLE": 10,
+     "SUPPORTED": 3
+    }
+   },
+   "paired|P-scope|identical_value": {
+    "k": 0,
+    "n": 3,
+    "acc": 0.0,
+    "ci": [
+     0.0,
+     0.562
+    ],
+    "dist": {
+     "SUPPORTED": 3
+    }
+   },
+   "paired|P-scope|different_value": {
+    "k": 11,
+    "n": 21,
+    "acc": 0.5238,
+    "ci": [
+     0.324,
+     0.717
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 11,
+     "NOT_APPLICABLE": 10
+    }
+   },
+   "paired|P-indistinct": {
+    "k": 11,
+    "n": 29,
+    "acc": 0.3793,
+    "ci": [
+     0.227,
+     0.56
+    ],
+    "dist": {
+     "SUPPORTED": 18,
+     "NOT_COMPARABLE": 11
+    }
+   },
+   "paired|P-indistinct|identical_value": {
+    "k": 7,
+    "n": 25,
+    "acc": 0.28,
+    "ci": [
+     0.143,
+     0.476
+    ],
+    "dist": {
+     "SUPPORTED": 18,
+     "NOT_COMPARABLE": 7
+    }
+   },
+   "paired|P-indistinct|different_value": {
+    "k": 4,
+    "n": 4,
+    "acc": 1.0,
+    "ci": [
+     0.51,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 4
+    }
+   },
+   "paired|P-intensity": {
+    "k": 11,
+    "n": 14,
+    "acc": 0.7857,
+    "ci": [
+     0.524,
+     0.924
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 11,
+     "NOT_APPLICABLE": 3
+    }
+   },
+   "paired|all_substitutions": {
+    "k": 33,
+    "n": 67,
+    "acc": 0.4925,
+    "ci": [
+     0.377,
+     0.609
+    ],
+    "affirmed": 21,
+    "mismatch_named": 33,
+    "mismatch_named_exact": 24
+   }
+  },
+  "C4": {
+   "own|P-none": {
+    "k": 17,
+    "n": 23,
+    "acc": 0.7391,
+    "ci": [
+     0.535,
+     0.875
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 6,
+     "SUPPORTED": 17
+    }
+   },
+   "own|P-scope": {
+    "k": 14,
+    "n": 24,
+    "acc": 0.5833,
+    "ci": [
+     0.388,
+     0.755
+    ],
+    "dist": {
+     "SUPPORTED": 10,
+     "NOT_COMPARABLE": 14
+    }
+   },
+   "own|P-scope|identical_value": {
+    "k": 1,
+    "n": 3,
+    "acc": 0.3333,
+    "ci": [
+     0.061,
+     0.792
+    ],
+    "dist": {
+     "SUPPORTED": 2,
+     "NOT_COMPARABLE": 1
+    }
+   },
+   "own|P-scope|different_value": {
+    "k": 13,
+    "n": 21,
+    "acc": 0.619,
+    "ci": [
+     0.409,
+     0.792
+    ],
+    "dist": {
+     "SUPPORTED": 8,
+     "NOT_COMPARABLE": 13
+    }
+   },
+   "own|P-indistinct": {
+    "k": 16,
+    "n": 29,
+    "acc": 0.5517,
+    "ci": [
+     0.375,
+     0.716
+    ],
+    "dist": {
+     "SUPPORTED": 13,
+     "NOT_COMPARABLE": 16
+    }
+   },
+   "own|P-indistinct|identical_value": {
+    "k": 12,
+    "n": 25,
+    "acc": 0.48,
+    "ci": [
+     0.3,
+     0.665
+    ],
+    "dist": {
+     "SUPPORTED": 13,
+     "NOT_COMPARABLE": 12
+    }
+   },
+   "own|P-indistinct|different_value": {
+    "k": 4,
+    "n": 4,
+    "acc": 1.0,
+    "ci": [
+     0.51,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 4
+    }
+   },
+   "own|P-intensity": {
+    "k": 9,
+    "n": 14,
+    "acc": 0.6429,
+    "ci": [
+     0.388,
+     0.837
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 9,
+     "SUPPORTED": 4,
+     "CONTRADICTED": 1
+    }
+   },
+   "own|all_substitutions": {
+    "k": 39,
+    "n": 67,
+    "acc": 0.5821,
+    "ci": [
+     0.463,
+     0.693
+    ],
+    "affirmed": 27,
+    "mismatch_named": 39,
+    "mismatch_named_exact": 18
+   },
+   "paired|P-none": {
+    "k": 17,
+    "n": 22,
+    "acc": 0.7727,
+    "ci": [
+     0.566,
+     0.899
+    ],
+    "dist": {
+     "SUPPORTED": 17,
+     "NOT_COMPARABLE": 5
+    }
+   },
+   "paired|P-scope": {
+    "k": 14,
+    "n": 24,
+    "acc": 0.5833,
+    "ci": [
+     0.388,
+     0.755
+    ],
+    "dist": {
+     "SUPPORTED": 10,
+     "NOT_COMPARABLE": 14
+    }
+   },
+   "paired|P-scope|identical_value": {
+    "k": 1,
+    "n": 3,
+    "acc": 0.3333,
+    "ci": [
+     0.061,
+     0.792
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 1,
+     "SUPPORTED": 2
+    }
+   },
+   "paired|P-scope|different_value": {
+    "k": 13,
+    "n": 21,
+    "acc": 0.619,
+    "ci": [
+     0.409,
+     0.792
+    ],
+    "dist": {
+     "SUPPORTED": 8,
+     "NOT_COMPARABLE": 13
+    }
+   },
+   "paired|P-indistinct": {
+    "k": 16,
+    "n": 29,
+    "acc": 0.5517,
+    "ci": [
+     0.375,
+     0.716
+    ],
+    "dist": {
+     "SUPPORTED": 13,
+     "NOT_COMPARABLE": 16
+    }
+   },
+   "paired|P-indistinct|identical_value": {
+    "k": 12,
+    "n": 25,
+    "acc": 0.48,
+    "ci": [
+     0.3,
+     0.665
+    ],
+    "dist": {
+     "SUPPORTED": 13,
+     "NOT_COMPARABLE": 12
+    }
+   },
+   "paired|P-indistinct|different_value": {
+    "k": 4,
+    "n": 4,
+    "acc": 1.0,
+    "ci": [
+     0.51,
+     1.0
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 4
+    }
+   },
+   "paired|P-intensity": {
+    "k": 9,
+    "n": 14,
+    "acc": 0.6429,
+    "ci": [
+     0.388,
+     0.837
+    ],
+    "dist": {
+     "NOT_COMPARABLE": 9,
+     "SUPPORTED": 4,
+     "CONTRADICTED": 1
+    }
+   },
+   "paired|all_substitutions": {
+    "k": 39,
+    "n": 67,
+    "acc": 0.5821,
+    "ci": [
+     0.463,
+     0.693
+    ],
+    "affirmed": 27,
+    "mismatch_named": 39,
+    "mismatch_named_exact": 18
+   }
+  },
+  "mcnemar": {
+   "C1_vs_C3|P-none": {
+    "a_only": 0,
+    "b_only": 2,
+    "p": 0.5
+   },
+   "C1_vs_C3|P-scope": {
+    "a_only": 10,
+    "b_only": 0,
+    "p": 0.002
+   },
+   "C1_vs_C3|P-indistinct": {
+    "a_only": 3,
+    "b_only": 5,
+    "p": 0.7266
+   },
+   "C1_vs_C3|P-intensity": {
+    "a_only": 3,
+    "b_only": 1,
+    "p": 0.625
+   },
+   "C1_vs_C3|ALL": {
+    "a_only": 16,
+    "b_only": 8,
+    "p": 0.1516
+   },
+   "C1_vs_C4|P-none": {
+    "a_only": 4,
+    "b_only": 2,
+    "p": 0.6875
+   },
+   "C1_vs_C4|P-scope": {
+    "a_only": 8,
+    "b_only": 1,
+    "p": 0.0391
+   },
+   "C1_vs_C4|P-indistinct": {
+    "a_only": 3,
+    "b_only": 10,
+    "p": 0.0923
+   },
+   "C1_vs_C4|P-intensity": {
+    "a_only": 5,
+    "b_only": 1,
+    "p": 0.2188
+   },
+   "C1_vs_C4|ALL": {
+    "a_only": 20,
+    "b_only": 14,
+    "p": 0.3915
+   },
+   "C3_vs_C4|P-none": {
+    "a_only": 4,
+    "b_only": 0,
+    "p": 0.125
+   },
+   "C3_vs_C4|P-scope": {
+    "a_only": 4,
+    "b_only": 7,
+    "p": 0.5488
+   },
+   "C3_vs_C4|P-indistinct": {
+    "a_only": 2,
+    "b_only": 7,
+    "p": 0.1797
+   },
+   "C3_vs_C4|P-intensity": {
+    "a_only": 4,
+    "b_only": 2,
+    "p": 0.6875
+   },
+   "C3_vs_C4|ALL": {
+    "a_only": 14,
+    "b_only": 16,
+    "p": 0.8555
+   }
+  }
+ },
+ "v1_vs_v2_C1_same_items": {
+  "P-scope": {
+   "n": 20,
+   "v1_dist": {
+    "CONTRADICTED": 13,
+    "NOT_COMPARABLE": 5,
+    "SUPPORTED": 2
+   },
+   "v2_dist": {
+    "NOT_COMPARABLE": 18,
+    "SUPPORTED": 2
+   },
+   "mcnemar_NC": [
+    13,
+    0,
+    0.0002
+   ]
+  },
+  "P-indistinct": {
+   "n": 9,
+   "v1_dist": {
+    "SUPPORTED": 7,
+    "NOT_COMPARABLE": 2
+   },
+   "v2_dist": {
+    "SUPPORTED": 7,
+    "NOT_COMPARABLE": 2
+   },
+   "mcnemar_NC": [
+    1,
+    1,
+    1.0
+   ]
+  },
+  "P-intensity": {
+   "n": 15,
+   "v1_dist": {
+    "CONTRADICTED": 8,
+    "NOT_COMPARABLE": 7
+   },
+   "v2_dist": {
+    "NOT_COMPARABLE": 14,
+    "SUPPORTED": 1
+   },
+   "mcnemar_NC": [
+    8,
+    1,
+    0.0391
+   ]
+  },
+  "P-none": {
+   "n": 22,
+   "v1_dist": {
+    "SUPPORTED": 20,
+    "NOT_COMPARABLE": 2
+   },
+   "v2_dist": {
+    "SUPPORTED": 19,
+    "NOT_COMPARABLE": 3
+   }
+  }
+ }
+}

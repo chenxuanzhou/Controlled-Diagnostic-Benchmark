@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the paper below (under review; check back for the final reference)."
+title: "A Controlled Diagnostic Benchmark for Cross-Source Verification of Traditional Chinese ESG Disclosures"
+authors:
+  - family-names: Zhou
+    given-names: Chenxuan
+    orcid: "https://orcid.org/0009-0009-8003-0122"
+  - family-names: Song
+    given-names: Jian
+    orcid: "https://orcid.org/0009-0001-6016-7959"
+  - family-names: Liang
+    given-names: Christy Jie
+    orcid: "https://orcid.org/0000-0001-7179-5208"
+date-released: 2026-09-19
+preferred-citation:
+  type: unpublished
+  title: "Matching Digits or Quantities? A Controlled Diagnostic Benchmark for Cross-Source Verification of Traditional Chinese ESG Disclosures"
+  authors:
+    - family-names: Zhou
+      given-names: Chenxuan
+    - family-names: Song
+      given-names: Jian
+    - family-names: Liang
+      given-names: Christy Jie
+  year: 2026
+  notes: "Manuscript under review."

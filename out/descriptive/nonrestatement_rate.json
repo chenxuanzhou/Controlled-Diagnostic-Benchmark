@@ -1,0 +1,351 @@
+{
+ "scope": "all listed companies with a FY2025 sustainability report AND filed indicators",
+ "n_companies": 885,
+ "n_pairs": 14622,
+ "n_anchorable_pairs": 8763,
+ "anchorable_share": 0.5993,
+ "n_anchors": 3483,
+ "headline": {
+  "conditional_verbatim_restatement_rate": 0.3975,
+  "conditional_verbatim_nonrestatement_rate": 0.6025,
+  "denominator": "pairs whose FILED value satisfies C2 (>=4 sig digits) and C3 (non-round)"
+ },
+ "unconditional": {
+  "verbatim_restatement_rate": 0.2382,
+  "verbatim_nonrestatement_rate": 0.7618,
+  "why_not_the_headline": "40% of pairs cannot produce an anchor because the filed value itself is too imprecise (an injury count of 34, a fire count of 2). Their 0% is a property of the anchor rule, not of disclosure."
+ },
+ "caveats": [
+  "VERBATIM only: a paraphrased or recomputed restatement counts as non-restated, so both rates are LOWER bounds on restatement (spec v2 §3).",
+  "Metrics with zero anchorable pairs are NOT MEASURABLE by this method and must not be reported as 0% restatement."
+ ],
+ "not_measurable_metrics": [
+  "injury_count",
+  "fire_count",
+  "fire_casualties",
+  "fire_cas_share",
+  "infosec_incidents"
+ ],
+ "by_industry": [
+  {
+   "key": "居家生活",
+   "n_pairs": 126,
+   "n_anchorable": 75,
+   "anchorable_share": 0.5952,
+   "n_anchored": 36,
+   "conditional_restatement_rate": 0.48,
+   "unconditional_restatement_rate": 0.2857,
+   "measurable": true
+  },
+  {
+   "key": "半導體業",
+   "n_pairs": 1287,
+   "n_anchorable": 853,
+   "anchorable_share": 0.6628,
+   "n_anchored": 400,
+   "conditional_restatement_rate": 0.4689,
+   "unconditional_restatement_rate": 0.3108,
+   "measurable": true
+  },
+  {
+   "key": "電子通路業",
+   "n_pairs": 281,
+   "n_anchorable": 162,
+   "anchorable_share": 0.5765,
+   "n_anchored": 74,
+   "conditional_restatement_rate": 0.4568,
+   "unconditional_restatement_rate": 0.2633,
+   "measurable": true
+  },
+  {
+   "key": "塑膠工業",
+   "n_pairs": 217,
+   "n_anchorable": 127,
+   "anchorable_share": 0.5853,
+   "n_anchored": 58,
+   "conditional_restatement_rate": 0.4567,
+   "unconditional_restatement_rate": 0.2673,
+   "measurable": true
+  },
+  {
+   "key": "金融保險業",
+   "n_pairs": 569,
+   "n_anchorable": 371,
+   "anchorable_share": 0.652,
+   "n_anchored": 167,
+   "conditional_restatement_rate": 0.4501,
+   "unconditional_restatement_rate": 0.2935,
+   "measurable": true
+  },
+  {
+   "key": "其他電子業",
+   "n_pairs": 660,
+   "n_anchorable": 400,
+   "anchorable_share": 0.6061,
+   "n_anchored": 180,
+   "conditional_restatement_rate": 0.45,
+   "unconditional_restatement_rate": 0.2727,
+   "measurable": true
+  },
+  {
+   "key": "電機機械",
+   "n_pairs": 620,
+   "n_anchorable": 359,
+   "anchorable_share": 0.579,
+   "n_anchored": 159,
+   "conditional_restatement_rate": 0.4429,
+   "unconditional_restatement_rate": 0.2565,
+   "measurable": true
+  },
+  {
+   "key": "鋼鐵工業",
+   "n_pairs": 506,
+   "n_anchorable": 273,
+   "anchorable_share": 0.5395,
+   "n_anchored": 117,
+   "conditional_restatement_rate": 0.4286,
+   "unconditional_restatement_rate": 0.2312,
+   "measurable": true
+  },
+  {
+   "key": "資訊服務業",
+   "n_pairs": 155,
+   "n_anchorable": 85,
+   "anchorable_share": 0.5484,
+   "n_anchored": 36,
+   "conditional_restatement_rate": 0.4235,
+   "unconditional_restatement_rate": 0.2323,
+   "measurable": true
+  },
+  {
+   "key": "通信網路業",
+   "n_pairs": 671,
+   "n_anchorable": 400,
+   "anchorable_share": 0.5961,
+   "n_anchored": 168,
+   "conditional_restatement_rate": 0.42,
+   "unconditional_restatement_rate": 0.2504,
+   "measurable": true
+  },
+  {
+   "key": "電腦及週邊設備業",
+   "n_pairs": 936,
+   "n_anchorable": 579,
+   "anchorable_share": 0.6186,
+   "n_anchored": 241,
+   "conditional_restatement_rate": 0.4162,
+   "unconditional_restatement_rate": 0.2575,
+   "measurable": true
+  },
+  {
+   "key": "汽車工業",
+   "n_pairs": 554,
+   "n_anchorable": 331,
+   "anchorable_share": 0.5975,
+   "n_anchored": 136,
+   "conditional_restatement_rate": 0.4109,
+   "unconditional_restatement_rate": 0.2455,
+   "measurable": true
+  },
+  {
+   "key": "航運業",
+   "n_pairs": 447,
+   "n_anchorable": 289,
+   "anchorable_share": 0.6465,
+   "n_anchored": 118,
+   "conditional_restatement_rate": 0.4083,
+   "unconditional_restatement_rate": 0.264,
+   "measurable": true
+  },
+  {
+   "key": "運動休閒",
+   "n_pairs": 210,
+   "n_anchorable": 125,
+   "anchorable_share": 0.5952,
+   "n_anchored": 51,
+   "conditional_restatement_rate": 0.408,
+   "unconditional_restatement_rate": 0.2429,
+   "measurable": true
+  },
+  {
+   "key": "數位雲端",
+   "n_pairs": 151,
+   "n_anchorable": 102,
+   "anchorable_share": 0.6755,
+   "n_anchored": 40,
+   "conditional_restatement_rate": 0.3922,
+   "unconditional_restatement_rate": 0.2649,
+   "measurable": true
+  },
+  {
+   "key": "電器電纜",
+   "n_pairs": 199,
+   "n_anchorable": 118,
+   "anchorable_share": 0.593,
+   "n_anchored": 46,
+   "conditional_restatement_rate": 0.3898,
+   "unconditional_restatement_rate": 0.2312,
+   "measurable": true
+  },
+  {
+   "key": "化學工業",
+   "n_pairs": 431,
+   "n_anchorable": 247,
+   "anchorable_share": 0.5731,
+   "n_anchored": 94,
+   "conditional_restatement_rate": 0.3806,
+   "unconditional_restatement_rate": 0.2181,
+   "measurable": true
+  },
+  {
+   "key": "紡織纖維",
+   "n_pairs": 534,
+   "n_anchorable": 274,
+   "anchorable_share": 0.5131,
+   "n_anchored": 104,
+   "conditional_restatement_rate": 0.3796,
+   "unconditional_restatement_rate": 0.1948,
+   "measurable": true
+  },
+  {
+   "key": "光電業",
+   "n_pairs": 916,
+   "n_anchorable": 528,
+   "anchorable_share": 0.5764,
+   "n_anchored": 198,
+   "conditional_restatement_rate": 0.375,
+   "unconditional_restatement_rate": 0.2162,
+   "measurable": true
+  },
+  {
+   "key": "綠能環保",
+   "n_pairs": 301,
+   "n_anchorable": 186,
+   "anchorable_share": 0.6179,
+   "n_anchored": 69,
+   "conditional_restatement_rate": 0.371,
+   "unconditional_restatement_rate": 0.2292,
+   "measurable": true
+  },
+  {
+   "key": "電子零組件業",
+   "n_pairs": 1475,
+   "n_anchorable": 917,
+   "anchorable_share": 0.6217,
+   "n_anchored": 338,
+   "conditional_restatement_rate": 0.3686,
+   "unconditional_restatement_rate": 0.2292,
+   "measurable": true
+  },
+  {
+   "key": "油電燃氣業",
+   "n_pairs": 116,
+   "n_anchorable": 71,
+   "anchorable_share": 0.6121,
+   "n_anchored": 25,
+   "conditional_restatement_rate": 0.3521,
+   "unconditional_restatement_rate": 0.2155,
+   "measurable": true
+  },
+  {
+   "key": "水泥工業",
+   "n_pairs": 128,
+   "n_anchorable": 69,
+   "anchorable_share": 0.5391,
+   "n_anchored": 24,
+   "conditional_restatement_rate": 0.3478,
+   "unconditional_restatement_rate": 0.1875,
+   "measurable": true
+  },
+  {
+   "key": "橡膠工業",
+   "n_pairs": 105,
+   "n_anchorable": 69,
+   "anchorable_share": 0.6571,
+   "n_anchored": 24,
+   "conditional_restatement_rate": 0.3478,
+   "unconditional_restatement_rate": 0.2286,
+   "measurable": true
+  },
+  {
+   "key": "其他",
+   "n_pairs": 677,
+   "n_anchorable": 383,
+   "anchorable_share": 0.5657,
+   "n_anchored": 133,
+   "conditional_restatement_rate": 0.3473,
+   "unconditional_restatement_rate": 0.1965,
+   "measurable": true
+  },
+  {
+   "key": "生技醫療業",
+   "n_pairs": 698,
+   "n_anchorable": 424,
+   "anchorable_share": 0.6074,
+   "n_anchored": 146,
+   "conditional_restatement_rate": 0.3443,
+   "unconditional_restatement_rate": 0.2092,
+   "measurable": true
+  },
+  {
+   "key": "觀光餐旅",
+   "n_pairs": 277,
+   "n_anchorable": 122,
+   "anchorable_share": 0.4404,
+   "n_anchored": 42,
+   "conditional_restatement_rate": 0.3443,
+   "unconditional_restatement_rate": 0.1516,
+   "measurable": true
+  },
+  {
+   "key": "造紙工業",
+   "n_pairs": 52,
+   "n_anchorable": 24,
+   "anchorable_share": 0.4615,
+   "n_anchored": 8,
+   "conditional_restatement_rate": 0.3333,
+   "unconditional_restatement_rate": 0.1538,
+   "measurable": true
+  },
+  {
+   "key": "貿易百貨",
+   "n_pairs": 240,
+   "n_anchorable": 127,
+   "anchorable_share": 0.5292,
+   "n_anchored": 41,
+   "conditional_restatement_rate": 0.3228,
+   "unconditional_restatement_rate": 0.1708,
+   "measurable": true
+  },
+  {
+   "key": "建材營造",
+   "n_pairs": 658,
+   "n_anchorable": 440,
+   "anchorable_share": 0.6687,
+   "n_anchored": 140,
+   "conditional_restatement_rate": 0.3182,
+   "unconditional_restatement_rate": 0.2128,
+   "measurable": true
+  },
+  {
+   "key": "食品工業",
+   "n_pairs": 355,
+   "n_anchorable": 197,
+   "anchorable_share": 0.5549,
+   "n_anchored": 61,
+   "conditional_restatement_rate": 0.3096,
+   "unconditional_restatement_rate": 0.1718,
+   "measurable": true
+  },
+  {
+   "key": "玻璃陶瓷",
+   "n_pairs": 70,
+   "n_anchorable": 36,
+   "anchorable_share": 0.5143,
+   "n_anchored": 9,
+   "conditional_restatement_rate": 0.25,
+   "unconditional_restatement_rate": 0.1286,
+   "measurable": true
+  }
+ ]
+}

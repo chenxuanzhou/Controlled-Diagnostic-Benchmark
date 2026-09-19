@@ -1,0 +1,56 @@
+{
+ "P-none": {
+  "quota": 750,
+  "made": 750,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-magnitude": {
+  "quota": 600,
+  "made": 600,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-consolidation": {
+  "quota": 450,
+  "made": 450,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-intensity": {
+  "quota": 330,
+  "made": 330,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-scope": {
+  "quota": 270,
+  "made": 270,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-indistinct": {
+  "quota": 120,
+  "made": 120,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-unit": {
+  "quota": 180,
+  "made": 180,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-null": {
+  "quota": 150,
+  "made": 150,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ },
+ "P-crosscompany": {
+  "quota": 150,
+  "made": 150,
+  "shortfall": 0,
+  "constructible_on_all_anchors": true
+ }
+}

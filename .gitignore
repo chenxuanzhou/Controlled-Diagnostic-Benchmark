@@ -1,0 +1,13 @@
+# secrets: the runners read MOONSHOT_API_KEY from the environment, or key.txt locally
+key.txt
+*.key
+.env
+
+# issuers' report PDFs are never committed (download them with scripts/build_corpus_full.py)
+data/corpus_full/raw_pdf/
+data/raw_pdf/
+*.pdf
+
+__pycache__/
+*.pyc
+.cache/

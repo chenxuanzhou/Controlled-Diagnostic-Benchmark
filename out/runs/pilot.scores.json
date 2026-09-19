@@ -1,0 +1,279 @@
+{
+ "kimi-k2.7-code|C0": {
+  "n": 20,
+  "errors": 1,
+  "empty_content": 3,
+  "unparsed": 3,
+  "n_scored": 16,
+  "accuracy": 0.5,
+  "accuracy_wilson95": [
+   0.28,
+   0.72
+  ],
+  "overclaim_rate": 0.6667,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-indistinct": {
+    "acc": 0.0,
+    "n": 1
+   },
+   "P-intensity": {
+    "acc": 0.0,
+    "n": 4
+   },
+   "P-magnitude": {
+    "acc": 0.5,
+    "n": 2
+   },
+   "P-none": {
+    "acc": 0.6667,
+    "n": 3
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-scope": {
+    "acc": 0.0,
+    "n": 1
+   },
+   "P-unit": {
+    "acc": 1.0,
+    "n": 1
+   }
+  },
+  "tolerance_curve": {
+   "0.3": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.0,
+    "n": 1
+   }
+  },
+  "mismatch_confusion": {
+   "absolute_vs_intensity->None": 4,
+   "consolidation->consolidation": 2,
+   "indistinguishable_metric->None": 1,
+   "scope->None": 1
+  },
+  "tokens": {
+   "in_mean": 1343,
+   "out_mean": 2199,
+   "reasoning_share": 0.921
+  },
+  "latency_s_mean": 56.4
+ },
+ "kimi-k2.7-code|C1": {
+  "n": 20,
+  "errors": 1,
+  "empty_content": 2,
+  "unparsed": 3,
+  "n_scored": 16,
+  "accuracy": 0.5625,
+  "accuracy_wilson95": [
+   0.3318,
+   0.769
+  ],
+  "overclaim_rate": 0.5556,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 1.0,
+    "n": 1
+   },
+   "P-indistinct": {
+    "acc": 0.0,
+    "n": 1
+   },
+   "P-intensity": {
+    "acc": 0.0,
+    "n": 2
+   },
+   "P-magnitude": {
+    "acc": 0.5,
+    "n": 2
+   },
+   "P-none": {
+    "acc": 0.75,
+    "n": 4
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-scope": {
+    "acc": 0.3333,
+    "n": 3
+   },
+   "P-unit": {
+    "acc": 1.0,
+    "n": 1
+   }
+  },
+  "tolerance_curve": {
+   "0.3": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.0,
+    "n": 1
+   }
+  },
+  "mismatch_confusion": {
+   "scope->None": 2,
+   "absolute_vs_intensity->None": 2,
+   "scope->consolidation": 1,
+   "indistinguishable_metric->None": 1,
+   "consolidation->consolidation": 1
+  },
+  "tokens": {
+   "in_mean": 2471,
+   "out_mean": 1675,
+   "reasoning_share": 0.892
+  },
+  "latency_s_mean": 40.4
+ },
+ "kimi-k3|C0": {
+  "n": 20,
+  "errors": 3,
+  "empty_content": 2,
+  "unparsed": 2,
+  "n_scored": 15,
+  "accuracy": 0.6667,
+  "accuracy_wilson95": [
+   0.4171,
+   0.8482
+  ],
+  "overclaim_rate": 0.5,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-indistinct": {
+    "acc": 0.0,
+    "n": 1
+   },
+   "P-intensity": {
+    "acc": 0.0,
+    "n": 3
+   },
+   "P-magnitude": {
+    "acc": 0.5,
+    "n": 2
+   },
+   "P-none": {
+    "acc": 1.0,
+    "n": 3
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-scope": {
+    "acc": 1.0,
+    "n": 1
+   },
+   "P-unit": {
+    "acc": 1.0,
+    "n": 1
+   }
+  },
+  "tolerance_curve": {
+   "0.3": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.0,
+    "n": 1
+   }
+  },
+  "mismatch_confusion": {
+   "absolute_vs_intensity->None": 3,
+   "consolidation->consolidation": 2,
+   "indistinguishable_metric->None": 1,
+   "scope->consolidation": 1
+  },
+  "tokens": {
+   "in_mean": 1461,
+   "out_mean": 1986,
+   "reasoning_share": 0.837
+  },
+  "latency_s_mean": 53.1
+ },
+ "kimi-k3|C1": {
+  "n": 20,
+  "errors": 2,
+  "empty_content": 0,
+  "unparsed": 0,
+  "n_scored": 18,
+  "accuracy": 0.5,
+  "accuracy_wilson95": [
+   0.2903,
+   0.7097
+  ],
+  "overclaim_rate": 0.7778,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-indistinct": {
+    "acc": 0.0,
+    "n": 1
+   },
+   "P-intensity": {
+    "acc": 0.0,
+    "n": 4
+   },
+   "P-magnitude": {
+    "acc": 0.3333,
+    "n": 3
+   },
+   "P-none": {
+    "acc": 1.0,
+    "n": 3
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "P-scope": {
+    "acc": 0.0,
+    "n": 2
+   },
+   "P-unit": {
+    "acc": 1.0,
+    "n": 1
+   }
+  },
+  "tolerance_curve": {
+   "0.3": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.0,
+    "n": 2
+   }
+  },
+  "mismatch_confusion": {
+   "absolute_vs_intensity->None": 4,
+   "scope->None": 2,
+   "consolidation->consolidation": 2,
+   "indistinguishable_metric->None": 1
+  },
+  "tokens": {
+   "in_mean": 2493,
+   "out_mean": 1915,
+   "reasoning_share": 0.798
+  },
+  "latency_s_mean": 50.0
+ }
+}

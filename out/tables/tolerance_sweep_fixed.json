@@ -1,0 +1,106 @@
+{
+ "0.1": {
+  "supported": 15,
+  "n": 16,
+  "rate": 0.9375,
+  "ci": [
+   0.7167,
+   0.9889
+  ],
+  "dist": {
+   "SUPPORTED": 15,
+   "NOT_COMPARABLE": 1
+  }
+ },
+ "0.3": {
+  "supported": 15,
+  "n": 16,
+  "rate": 0.9375,
+  "ci": [
+   0.7167,
+   0.9889
+  ],
+  "dist": {
+   "SUPPORTED": 15,
+   "CONTRADICTED": 1
+  }
+ },
+ "0.6": {
+  "supported": 12,
+  "n": 14,
+  "rate": 0.8571,
+  "ci": [
+   0.6006,
+   0.9599
+  ],
+  "dist": {
+   "SUPPORTED": 12,
+   "NOT_COMPARABLE": 2
+  }
+ },
+ "0.9": {
+  "supported": 14,
+  "n": 15,
+  "rate": 0.9333,
+  "ci": [
+   0.7018,
+   0.9881
+  ],
+  "dist": {
+   "SUPPORTED": 14,
+   "NOT_COMPARABLE": 1
+  }
+ },
+ "1.2": {
+  "supported": 0,
+  "n": 14,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.2153
+  ],
+  "dist": {
+   "CONTRADICTED": 10,
+   "NOT_COMPARABLE": 4
+  }
+ },
+ "2.0": {
+  "supported": 0,
+  "n": 16,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.1936
+  ],
+  "dist": {
+   "NOT_COMPARABLE": 5,
+   "CONTRADICTED": 11
+  }
+ },
+ "5.0": {
+  "supported": 0,
+  "n": 15,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.2039
+  ],
+  "dist": {
+   "CONTRADICTED": 10,
+   "NOT_COMPARABLE": 5
+  }
+ },
+ "15.0": {
+  "supported": 0,
+  "n": 15,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.2039
+  ],
+  "dist": {
+   "CONTRADICTED": 10,
+   "NOT_COMPARABLE": 5
+  }
+ }
+}

@@ -1,0 +1,262 @@
+[
+ {
+  "key": "infosec_pii_share",
+  "n_pairs": 13,
+  "n_anchorable": 1,
+  "anchorable_share": 0.0769,
+  "n_anchored": 1,
+  "conditional_restatement_rate": 1.0,
+  "unconditional_restatement_rate": 0.0769,
+  "measurable": true
+ },
+ {
+  "key": "infosec_affected",
+  "n_pairs": 13,
+  "n_anchorable": 1,
+  "anchorable_share": 0.0769,
+  "n_anchored": 1,
+  "conditional_restatement_rate": 1.0,
+  "unconditional_restatement_rate": 0.0769,
+  "measurable": true
+ },
+ {
+  "key": "water_use",
+  "n_pairs": 828,
+  "n_anchorable": 768,
+  "anchorable_share": 0.9275,
+  "n_anchored": 516,
+  "conditional_restatement_rate": 0.6719,
+  "unconditional_restatement_rate": 0.6232,
+  "measurable": true
+ },
+ {
+  "key": "salary_median",
+  "n_pairs": 819,
+  "n_anchorable": 204,
+  "anchorable_share": 0.2491,
+  "n_anchored": 132,
+  "conditional_restatement_rate": 0.6471,
+  "unconditional_restatement_rate": 0.1612,
+  "measurable": true
+ },
+ {
+  "key": "waste_total",
+  "n_pairs": 809,
+  "n_anchorable": 716,
+  "anchorable_share": 0.885,
+  "n_anchored": 448,
+  "conditional_restatement_rate": 0.6257,
+  "unconditional_restatement_rate": 0.5538,
+  "measurable": true
+ },
+ {
+  "key": "ghg_scope1",
+  "n_pairs": 870,
+  "n_anchorable": 857,
+  "anchorable_share": 0.9851,
+  "n_anchored": 524,
+  "conditional_restatement_rate": 0.6114,
+  "unconditional_restatement_rate": 0.6023,
+  "measurable": true
+ },
+ {
+  "key": "ghg_scope2",
+  "n_pairs": 880,
+  "n_anchorable": 877,
+  "anchorable_share": 0.9966,
+  "n_anchored": 521,
+  "conditional_restatement_rate": 0.5941,
+  "unconditional_restatement_rate": 0.592,
+  "measurable": true
+ },
+ {
+  "key": "nonmgr_salary_avg",
+  "n_pairs": 819,
+  "n_anchorable": 284,
+  "anchorable_share": 0.3468,
+  "n_anchored": 163,
+  "conditional_restatement_rate": 0.5739,
+  "unconditional_restatement_rate": 0.199,
+  "measurable": true
+ },
+ {
+  "key": "waste_hazard",
+  "n_pairs": 447,
+  "n_anchorable": 297,
+  "anchorable_share": 0.6644,
+  "n_anchored": 168,
+  "conditional_restatement_rate": 0.5657,
+  "unconditional_restatement_rate": 0.3758,
+  "measurable": true
+ },
+ {
+  "key": "injury_rate",
+  "n_pairs": 456,
+  "n_anchorable": 4,
+  "anchorable_share": 0.0088,
+  "n_anchored": 2,
+  "conditional_restatement_rate": 0.5,
+  "unconditional_restatement_rate": 0.0044,
+  "measurable": true
+ },
+ {
+  "key": "ghg_scope3",
+  "n_pairs": 665,
+  "n_anchorable": 658,
+  "anchorable_share": 0.9895,
+  "n_anchored": 311,
+  "conditional_restatement_rate": 0.4726,
+  "unconditional_restatement_rate": 0.4677,
+  "measurable": true
+ },
+ {
+  "key": "ghg_intensity",
+  "n_pairs": 830,
+  "n_anchorable": 548,
+  "anchorable_share": 0.6602,
+  "n_anchored": 200,
+  "conditional_restatement_rate": 0.365,
+  "unconditional_restatement_rate": 0.241,
+  "measurable": true
+ },
+ {
+  "key": "renewable_share",
+  "n_pairs": 336,
+  "n_anchorable": 163,
+  "anchorable_share": 0.4851,
+  "n_anchored": 59,
+  "conditional_restatement_rate": 0.362,
+  "unconditional_restatement_rate": 0.1756,
+  "measurable": true
+ },
+ {
+  "key": "waste_nonhazard",
+  "n_pairs": 788,
+  "n_anchorable": 690,
+  "anchorable_share": 0.8756,
+  "n_anchored": 208,
+  "conditional_restatement_rate": 0.3014,
+  "unconditional_restatement_rate": 0.264,
+  "measurable": true
+ },
+ {
+  "key": "female_mgr",
+  "n_pairs": 871,
+  "n_anchorable": 462,
+  "anchorable_share": 0.5304,
+  "n_anchored": 83,
+  "conditional_restatement_rate": 0.1797,
+  "unconditional_restatement_rate": 0.0953,
+  "measurable": true
+ },
+ {
+  "key": "water_intensity",
+  "n_pairs": 738,
+  "n_anchorable": 504,
+  "anchorable_share": 0.6829,
+  "n_anchored": 74,
+  "conditional_restatement_rate": 0.1468,
+  "unconditional_restatement_rate": 0.1003,
+  "measurable": true
+ },
+ {
+  "key": "waste_intensity",
+  "n_pairs": 683,
+  "n_anchorable": 209,
+  "anchorable_share": 0.306,
+  "n_anchored": 26,
+  "conditional_restatement_rate": 0.1244,
+  "unconditional_restatement_rate": 0.0381,
+  "measurable": true
+ },
+ {
+  "key": "salary_avg",
+  "n_pairs": 822,
+  "n_anchorable": 369,
+  "anchorable_share": 0.4489,
+  "n_anchored": 15,
+  "conditional_restatement_rate": 0.0407,
+  "unconditional_restatement_rate": 0.0182,
+  "measurable": true
+ },
+ {
+  "key": "nonmgr_salary_chg",
+  "n_pairs": 788,
+  "n_anchorable": 347,
+  "anchorable_share": 0.4404,
+  "n_anchored": 12,
+  "conditional_restatement_rate": 0.0346,
+  "unconditional_restatement_rate": 0.0152,
+  "measurable": true
+ },
+ {
+  "key": "salary_median_chg",
+  "n_pairs": 785,
+  "n_anchorable": 324,
+  "anchorable_share": 0.4127,
+  "n_anchored": 9,
+  "conditional_restatement_rate": 0.0278,
+  "unconditional_restatement_rate": 0.0115,
+  "measurable": true
+ },
+ {
+  "key": "benefit_avg",
+  "n_pairs": 822,
+  "n_anchorable": 480,
+  "anchorable_share": 0.5839,
+  "n_anchored": 10,
+  "conditional_restatement_rate": 0.0208,
+  "unconditional_restatement_rate": 0.0122,
+  "measurable": true
+ },
+ {
+  "key": "injury_count",
+  "n_pairs": 468,
+  "n_anchorable": 0,
+  "anchorable_share": 0.0,
+  "n_anchored": 0,
+  "conditional_restatement_rate": null,
+  "unconditional_restatement_rate": 0.0,
+  "measurable": false
+ },
+ {
+  "key": "fire_count",
+  "n_pairs": 40,
+  "n_anchorable": 0,
+  "anchorable_share": 0.0,
+  "n_anchored": 0,
+  "conditional_restatement_rate": null,
+  "unconditional_restatement_rate": 0.0,
+  "measurable": false
+ },
+ {
+  "key": "fire_casualties",
+  "n_pairs": 7,
+  "n_anchorable": 0,
+  "anchorable_share": 0.0,
+  "n_anchored": 0,
+  "conditional_restatement_rate": null,
+  "unconditional_restatement_rate": 0.0,
+  "measurable": false
+ },
+ {
+  "key": "fire_cas_share",
+  "n_pairs": 6,
+  "n_anchorable": 0,
+  "anchorable_share": 0.0,
+  "n_anchored": 0,
+  "conditional_restatement_rate": null,
+  "unconditional_restatement_rate": 0.0,
+  "measurable": false
+ },
+ {
+  "key": "infosec_incidents",
+  "n_pairs": 19,
+  "n_anchorable": 0,
+  "anchorable_share": 0.0,
+  "n_anchored": 0,
+  "conditional_restatement_rate": null,
+  "unconditional_restatement_rate": 0.0,
+  "measurable": false
+ }
+]

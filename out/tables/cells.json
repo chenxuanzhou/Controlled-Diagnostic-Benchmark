@@ -1,0 +1,677 @@
+{
+ "C0": {
+  "n_scored": 220,
+  "unparsed": 9,
+  "accuracy": 0.6363636363636364,
+  "acc_ci": [
+   0.5709608335998034,
+   0.6970858565596665
+  ],
+  "overclaim": 0.5204081632653061,
+  "overclaim_n": 98,
+  "by_ptype": {
+   "P-indistinct": [
+    0.1111111111111111,
+    9
+   ],
+   "P-none": [
+    0.8113207547169812,
+    53
+   ],
+   "P-null": [
+    1.0,
+    12
+   ],
+   "P-intensity": [
+    0.3333333333333333,
+    24
+   ],
+   "P-consolidation": [
+    0.7647058823529411,
+    34
+   ],
+   "P-magnitude": [
+    0.6818181818181818,
+    44
+   ],
+   "P-scope": [
+    0.15,
+    20
+   ],
+   "P-unit": [
+    0.6153846153846154,
+    13
+   ],
+   "P-crosscompany": [
+    0.8181818181818182,
+    11
+   ]
+  },
+  "tol": {
+   "0.9": [
+    0.5,
+    6
+   ],
+   "0.3": [
+    0.6666666666666666,
+    3
+   ],
+   "0.1": [
+    1.0,
+    2
+   ],
+   "5.0": [
+    0.0,
+    10
+   ],
+   "1.2": [
+    0.0,
+    12
+   ],
+   "0.6": [
+    1.0,
+    1
+   ],
+   "2.0": [
+    0.0,
+    6
+   ],
+   "15.0": [
+    0.0,
+    4
+   ]
+  },
+  "mismatch": {
+   "indistinguishable_metric->None": 8,
+   "absolute_vs_intensity->None": 17,
+   "consolidation->consolidation": 21,
+   "scope->None": 17,
+   "scope->consolidation": 2,
+   "consolidation->scope": 4,
+   "cross_company->None": 2,
+   "consolidation->None": 8,
+   "cross_company->consolidation": 7,
+   "absolute_vs_intensity->absolute_vs_intensity": 4,
+   "absolute_vs_intensity->consolidation": 2,
+   "scope->absolute_vs_intensity": 1,
+   "consolidation->absolute_vs_intensity": 1,
+   "indistinguishable_metric->scope": 1,
+   "absolute_vs_intensity->scope": 1,
+   "cross_company->indistinguishable_metric": 1,
+   "cross_company->absolute_vs_intensity": 1
+  },
+  "conf": {
+   "NOT_COMPARABLE->SUPPORTED": 19,
+   "SUPPORTED->SUPPORTED": 51,
+   "NOT_APPLICABLE->NOT_APPLICABLE": 12,
+   "NOT_COMPARABLE->CONTRADICTED": 32,
+   "NOT_COMPARABLE->NOT_COMPARABLE": 47,
+   "SUPPORTED->NOT_COMPARABLE": 14,
+   "CONTRADICTED->CONTRADICTED": 30,
+   "CONTRADICTED->NOT_COMPARABLE": 14,
+   "CONTRADICTED->SUPPORTED": 1
+  },
+  "tok_in": 334996,
+  "tok_out": 422640,
+  "n_calls": 235
+ },
+ "C1": {
+  "n_scored": 221,
+  "unparsed": 6,
+  "accuracy": 0.669683257918552,
+  "acc_ci": [
+   0.605238040866884,
+   0.7283301244548357
+  ],
+  "overclaim": 0.5,
+  "overclaim_n": 96,
+  "by_ptype": {
+   "P-none": [
+    0.875,
+    56
+   ],
+   "P-intensity": [
+    0.34782608695652173,
+    23
+   ],
+   "P-indistinct": [
+    0.2222222222222222,
+    9
+   ],
+   "P-null": [
+    1.0,
+    12
+   ],
+   "P-magnitude": [
+    0.6363636363636364,
+    44
+   ],
+   "P-scope": [
+    0.25,
+    20
+   ],
+   "P-unit": [
+    0.8461538461538461,
+    13
+   ],
+   "P-consolidation": [
+    0.7575757575757576,
+    33
+   ],
+   "P-crosscompany": [
+    0.7272727272727273,
+    11
+   ]
+  },
+  "tol": {
+   "0.3": [
+    1.0,
+    3
+   ],
+   "0.9": [
+    0.5,
+    6
+   ],
+   "5.0": [
+    0.0,
+    9
+   ],
+   "0.1": [
+    1.0,
+    2
+   ],
+   "1.2": [
+    0.0,
+    12
+   ],
+   "15.0": [
+    0.0,
+    6
+   ],
+   "0.6": [
+    1.0,
+    1
+   ],
+   "2.0": [
+    0.0,
+    5
+   ]
+  },
+  "mismatch": {
+   "absolute_vs_intensity->None": 14,
+   "indistinguishable_metric->None": 7,
+   "scope->None": 14,
+   "consolidation->consolidation": 19,
+   "consolidation->None": 9,
+   "cross_company->None": 3,
+   "scope->scope": 4,
+   "absolute_vs_intensity->absolute_vs_intensity": 6,
+   "cross_company->consolidation": 5,
+   "absolute_vs_intensity->consolidation": 1,
+   "scope->consolidation": 1,
+   "scope->absolute_vs_intensity": 1,
+   "consolidation->scope": 3,
+   "absolute_vs_intensity->scope": 2,
+   "consolidation->indistinguishable_metric": 1,
+   "cross_company->indistinguishable_metric": 1,
+   "indistinguishable_metric->scope": 1,
+   "consolidation->absolute_vs_intensity": 1,
+   "indistinguishable_metric->consolidation": 1,
+   "cross_company->absolute_vs_intensity": 2
+  },
+  "conf": {
+   "SUPPORTED->SUPPORTED": 58,
+   "NOT_COMPARABLE->CONTRADICTED": 30,
+   "NOT_COMPARABLE->SUPPORTED": 18,
+   "NOT_APPLICABLE->NOT_APPLICABLE": 12,
+   "CONTRADICTED->CONTRADICTED": 30,
+   "NOT_COMPARABLE->NOT_COMPARABLE": 48,
+   "SUPPORTED->NOT_COMPARABLE": 9,
+   "SUPPORTED->CONTRADICTED": 1,
+   "CONTRADICTED->NOT_COMPARABLE": 15
+  },
+  "tok_in": 589534,
+  "tok_out": 416236,
+  "n_calls": 235
+ },
+ "C3": {
+  "n_scored": 106,
+  "unparsed": 7,
+  "accuracy": 0.6226415094339622,
+  "acc_ci": [
+   0.5276006299875899,
+   0.7091038608428422
+  ],
+  "overclaim": 0.5636363636363636,
+  "overclaim_n": 55,
+  "by_ptype": {
+   "P-indistinct": [
+    0.0,
+    4
+   ],
+   "P-intensity": [
+    0.38461538461538464,
+    13
+   ],
+   "P-unit": [
+    0.8,
+    5
+   ],
+   "P-magnitude": [
+    0.7222222222222222,
+    18
+   ],
+   "P-none": [
+    0.875,
+    24
+   ],
+   "P-null": [
+    1.0,
+    4
+   ],
+   "P-scope": [
+    0.3,
+    10
+   ],
+   "P-consolidation": [
+    0.5454545454545454,
+    22
+   ],
+   "P-crosscompany": [
+    0.6666666666666666,
+    6
+   ]
+  },
+  "tol": {
+   "0.3": [
+    1.0,
+    2
+   ],
+   "0.9": [
+    0.0,
+    3
+   ],
+   "0.1": [
+    1.0,
+    2
+   ],
+   "5.0": [
+    0.0,
+    4
+   ],
+   "1.2": [
+    0.0,
+    4
+   ],
+   "15.0": [
+    0.0,
+    2
+   ],
+   "2.0": [
+    0.0,
+    1
+   ]
+  },
+  "mismatch": {
+   "indistinguishable_metric->None": 4,
+   "absolute_vs_intensity->None": 7,
+   "scope->indistinguishable_metric": 1,
+   "scope->None": 7,
+   "consolidation->consolidation": 11,
+   "absolute_vs_intensity->absolute_vs_intensity": 3,
+   "consolidation->None": 10,
+   "cross_company->None": 2,
+   "absolute_vs_intensity->consolidation": 1,
+   "cross_company->consolidation": 3,
+   "absolute_vs_intensity->indistinguishable_metric": 1,
+   "cross_company->scope": 1,
+   "scope->absolute_vs_intensity": 1,
+   "absolute_vs_intensity->scope": 1,
+   "scope->consolidation": 1,
+   "consolidation->scope": 1
+  },
+  "conf": {
+   "NOT_COMPARABLE->SUPPORTED": 14,
+   "NOT_COMPARABLE->CONTRADICTED": 17,
+   "CONTRADICTED->CONTRADICTED": 13,
+   "SUPPORTED->SUPPORTED": 25,
+   "SUPPORTED->CONTRADICTED": 2,
+   "NOT_APPLICABLE->NOT_APPLICABLE": 4,
+   "NOT_COMPARABLE->NOT_COMPARABLE": 24,
+   "SUPPORTED->NOT_COMPARABLE": 4,
+   "CONTRADICTED->NOT_COMPARABLE": 2,
+   "CONTRADICTED->SUPPORTED": 1
+  },
+  "tok_in": 537226,
+  "tok_out": 121841,
+  "n_calls": 120
+ },
+ "C4": {
+  "n_scored": 99,
+  "unparsed": 13,
+  "accuracy": 0.5959595959595959,
+  "acc_ci": [
+   0.4974671538075806,
+   0.6872829862135781
+  ],
+  "overclaim": 0.40384615384615385,
+  "overclaim_n": 52,
+  "by_ptype": {
+   "P-none": [
+    0.5769230769230769,
+    26
+   ],
+   "P-magnitude": [
+    0.6,
+    15
+   ],
+   "P-consolidation": [
+    0.7142857142857143,
+    21
+   ],
+   "P-null": [
+    0.6666666666666666,
+    3
+   ],
+   "P-unit": [
+    0.6666666666666666,
+    3
+   ],
+   "P-scope": [
+    0.8,
+    10
+   ],
+   "P-intensity": [
+    0.5,
+    12
+   ],
+   "P-indistinct": [
+    0.0,
+    4
+   ],
+   "P-crosscompany": [
+    0.4,
+    5
+   ]
+  },
+  "tol": {
+   "0.3": [
+    1.0,
+    2
+   ],
+   "0.9": [
+    0.0,
+    3
+   ],
+   "0.1": [
+    1.0,
+    2
+   ],
+   "5.0": [
+    0.0,
+    2
+   ],
+   "1.2": [
+    0.0,
+    3
+   ],
+   "15.0": [
+    0.0,
+    2
+   ],
+   "2.0": [
+    0.0,
+    1
+   ]
+  },
+  "mismatch": {
+   "consolidation->consolidation": 15,
+   "scope->scope": 6,
+   "absolute_vs_intensity->None": 6,
+   "indistinguishable_metric->None": 4,
+   "scope->None": 1,
+   "consolidation->None": 6,
+   "absolute_vs_intensity->absolute_vs_intensity": 3,
+   "cross_company->None": 3,
+   "absolute_vs_intensity->consolidation": 2,
+   "scope->consolidation": 2,
+   "cross_company->consolidation": 2,
+   "scope->absolute_vs_intensity": 1,
+   "absolute_vs_intensity->scope": 1
+  },
+  "conf": {
+   "SUPPORTED->SUPPORTED": 19,
+   "NOT_COMPARABLE->NOT_COMPARABLE": 31,
+   "NOT_APPLICABLE->NOT_COMPARABLE": 1,
+   "CONTRADICTED->CONTRADICTED": 7,
+   "NOT_COMPARABLE->CONTRADICTED": 10,
+   "NOT_COMPARABLE->SUPPORTED": 11,
+   "SUPPORTED->NOT_COMPARABLE": 14,
+   "CONTRADICTED->NOT_COMPARABLE": 4,
+   "NOT_APPLICABLE->NOT_APPLICABLE": 2
+  },
+  "tok_in": 452750,
+  "tok_out": 411359,
+  "n_calls": 120
+ },
+ "C3-filing_lookup": {
+  "n_scored": 115,
+  "unparsed": 2,
+  "accuracy": 0.5043478260869565,
+  "acc_ci": [
+   0.41431426709691954,
+   0.5941002948073294
+  ],
+  "overclaim": 0.0,
+  "overclaim_n": 59,
+  "by_ptype": {
+   "P-intensity": [
+    0.9333333333333333,
+    15
+   ],
+   "P-consolidation": [
+    1.0,
+    22
+   ],
+   "P-none": [
+    0.0,
+    28
+   ],
+   "P-scope": [
+    1.0,
+    11
+   ],
+   "P-unit": [
+    0.0,
+    6
+   ],
+   "P-null": [
+    0.0,
+    4
+   ],
+   "P-magnitude": [
+    0.0,
+    18
+   ],
+   "P-indistinct": [
+    1.0,
+    4
+   ],
+   "P-crosscompany": [
+    1.0,
+    7
+   ]
+  },
+  "tol": {
+   "0.9": [
+    0.0,
+    3
+   ],
+   "0.1": [
+    0.0,
+    2
+   ],
+   "5.0": [
+    0.0,
+    4
+   ],
+   "1.2": [
+    0.0,
+    4
+   ],
+   "15.0": [
+    0.0,
+    2
+   ],
+   "0.3": [
+    0.0,
+    1
+   ],
+   "0.6": [
+    0.0,
+    1
+   ],
+   "2.0": [
+    0.0,
+    1
+   ]
+  },
+  "mismatch": {
+   "absolute_vs_intensity->None": 12,
+   "consolidation->None": 21,
+   "scope->indistinguishable_metric": 1,
+   "scope->None": 10,
+   "indistinguishable_metric->scope": 1,
+   "cross_company->None": 6,
+   "absolute_vs_intensity->indistinguishable_metric": 3,
+   "cross_company->indistinguishable_metric": 1,
+   "indistinguishable_metric->None": 3,
+   "consolidation->indistinguishable_metric": 1
+  },
+  "conf": {
+   "NOT_COMPARABLE->NOT_COMPARABLE": 58,
+   "SUPPORTED->NOT_COMPARABLE": 35,
+   "CONTRADICTED->NOT_COMPARABLE": 15,
+   "NOT_APPLICABLE->NOT_COMPARABLE": 4,
+   "CONTRADICTED->NOT_APPLICABLE": 2,
+   "NOT_COMPARABLE->NOT_APPLICABLE": 1
+  },
+  "tok_in": 296160,
+  "tok_out": 118616,
+  "n_calls": 120
+ },
+ "C3-calc": {
+  "n_scored": 109,
+  "unparsed": 4,
+  "accuracy": 0.6055045871559633,
+  "acc_ci": [
+   0.5116631519621372,
+   0.692162387555204
+  ],
+  "overclaim": 0.5636363636363636,
+  "overclaim_n": 55,
+  "by_ptype": {
+   "P-null": [
+    1.0,
+    5
+   ],
+   "P-intensity": [
+    0.46153846153846156,
+    13
+   ],
+   "P-none": [
+    0.8148148148148148,
+    27
+   ],
+   "P-scope": [
+    0.2,
+    10
+   ],
+   "P-magnitude": [
+    0.6111111111111112,
+    18
+   ],
+   "P-unit": [
+    1.0,
+    4
+   ],
+   "P-indistinct": [
+    0.0,
+    4
+   ],
+   "P-consolidation": [
+    0.5238095238095238,
+    21
+   ],
+   "P-crosscompany": [
+    0.7142857142857143,
+    7
+   ]
+  },
+  "tol": {
+   "0.3": [
+    1.0,
+    2
+   ],
+   "0.1": [
+    1.0,
+    2
+   ],
+   "0.9": [
+    0.0,
+    3
+   ],
+   "5.0": [
+    0.0,
+    4
+   ],
+   "15.0": [
+    0.0,
+    2
+   ],
+   "1.2": [
+    0.0,
+    3
+   ],
+   "0.6": [
+    1.0,
+    1
+   ],
+   "2.0": [
+    0.0,
+    1
+   ]
+  },
+  "mismatch": {
+   "absolute_vs_intensity->scope": 1,
+   "scope->None": 8,
+   "indistinguishable_metric->None": 4,
+   "absolute_vs_intensity->None": 5,
+   "consolidation->consolidation": 10,
+   "consolidation->None": 10,
+   "cross_company->scope": 1,
+   "absolute_vs_intensity->absolute_vs_intensity": 3,
+   "cross_company->None": 2,
+   "absolute_vs_intensity->consolidation": 3,
+   "cross_company->consolidation": 4,
+   "scope->absolute_vs_intensity": 1,
+   "scope->consolidation": 1,
+   "consolidation->scope": 1,
+   "absolute_vs_intensity->indistinguishable_metric": 1
+  },
+  "conf": {
+   "NOT_APPLICABLE->NOT_APPLICABLE": 5,
+   "NOT_COMPARABLE->CONTRADICTED": 18,
+   "SUPPORTED->SUPPORTED": 27,
+   "CONTRADICTED->CONTRADICTED": 10,
+   "NOT_COMPARABLE->SUPPORTED": 13,
+   "NOT_COMPARABLE->NOT_COMPARABLE": 24,
+   "SUPPORTED->NOT_COMPARABLE": 7,
+   "SUPPORTED->CONTRADICTED": 1,
+   "CONTRADICTED->NOT_COMPARABLE": 4
+  },
+  "tok_in": 466337,
+  "tok_out": 98754,
+  "n_calls": 120
+ }
+}

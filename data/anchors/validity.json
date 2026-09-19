@@ -1,0 +1,25 @@
+{
+ "seed": 20260914,
+ "n_companies": 885,
+ "n_pairs": 14622,
+ "n_anchors": 3483,
+ "anchor_rate": 0.2382,
+ "false_match_bound": {
+  "N_numeric_tokens_per_report_median": 3302,
+  "r_round_number_share": 0.2624,
+  "m_tokens_in_anchor_window_median": 16,
+  "d_significant_digits_median": 5,
+  "worst_case_d4_single_anchor": 0.002408,
+  "at_median_d": 0.00024099920057696345,
+  "target": 0.01,
+  "pass": true
+ },
+ "corroboration_rate": 0.5444,
+ "negative_control": {
+  "passed": 1942,
+  "total": 1944,
+  "rate": 0.99897,
+  "target": 0.99,
+  "pass": true
+ }
+}

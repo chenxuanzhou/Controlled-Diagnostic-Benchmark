@@ -1,0 +1,210 @@
+[
+ {
+  "metric_id": "ghg_scope2",
+  "n": 880,
+  "anchorable": 877,
+  "anchorable_share": 0.9966,
+  "anchored": 521,
+  "conditional_restatement_rate": 0.5941
+ },
+ {
+  "metric_id": "ghg_scope3",
+  "n": 665,
+  "anchorable": 658,
+  "anchorable_share": 0.9895,
+  "anchored": 311,
+  "conditional_restatement_rate": 0.4726
+ },
+ {
+  "metric_id": "ghg_scope1",
+  "n": 870,
+  "anchorable": 857,
+  "anchorable_share": 0.9851,
+  "anchored": 524,
+  "conditional_restatement_rate": 0.6114
+ },
+ {
+  "metric_id": "water_use",
+  "n": 828,
+  "anchorable": 768,
+  "anchorable_share": 0.9275,
+  "anchored": 516,
+  "conditional_restatement_rate": 0.6719
+ },
+ {
+  "metric_id": "waste_total",
+  "n": 809,
+  "anchorable": 716,
+  "anchorable_share": 0.885,
+  "anchored": 448,
+  "conditional_restatement_rate": 0.6257
+ },
+ {
+  "metric_id": "waste_nonhazard",
+  "n": 788,
+  "anchorable": 690,
+  "anchorable_share": 0.8756,
+  "anchored": 208,
+  "conditional_restatement_rate": 0.3014
+ },
+ {
+  "metric_id": "water_intensity",
+  "n": 738,
+  "anchorable": 504,
+  "anchorable_share": 0.6829,
+  "anchored": 74,
+  "conditional_restatement_rate": 0.1468
+ },
+ {
+  "metric_id": "waste_hazard",
+  "n": 447,
+  "anchorable": 297,
+  "anchorable_share": 0.6644,
+  "anchored": 168,
+  "conditional_restatement_rate": 0.5657
+ },
+ {
+  "metric_id": "ghg_intensity",
+  "n": 830,
+  "anchorable": 548,
+  "anchorable_share": 0.6602,
+  "anchored": 200,
+  "conditional_restatement_rate": 0.365
+ },
+ {
+  "metric_id": "benefit_avg",
+  "n": 822,
+  "anchorable": 480,
+  "anchorable_share": 0.5839,
+  "anchored": 10,
+  "conditional_restatement_rate": 0.0208
+ },
+ {
+  "metric_id": "female_mgr",
+  "n": 871,
+  "anchorable": 462,
+  "anchorable_share": 0.5304,
+  "anchored": 83,
+  "conditional_restatement_rate": 0.1797
+ },
+ {
+  "metric_id": "renewable_share",
+  "n": 336,
+  "anchorable": 163,
+  "anchorable_share": 0.4851,
+  "anchored": 59,
+  "conditional_restatement_rate": 0.362
+ },
+ {
+  "metric_id": "salary_avg",
+  "n": 822,
+  "anchorable": 369,
+  "anchorable_share": 0.4489,
+  "anchored": 15,
+  "conditional_restatement_rate": 0.0407
+ },
+ {
+  "metric_id": "nonmgr_salary_chg",
+  "n": 788,
+  "anchorable": 347,
+  "anchorable_share": 0.4404,
+  "anchored": 12,
+  "conditional_restatement_rate": 0.0346
+ },
+ {
+  "metric_id": "salary_median_chg",
+  "n": 785,
+  "anchorable": 324,
+  "anchorable_share": 0.4127,
+  "anchored": 9,
+  "conditional_restatement_rate": 0.0278
+ },
+ {
+  "metric_id": "nonmgr_salary_avg",
+  "n": 819,
+  "anchorable": 284,
+  "anchorable_share": 0.3468,
+  "anchored": 163,
+  "conditional_restatement_rate": 0.5739
+ },
+ {
+  "metric_id": "waste_intensity",
+  "n": 683,
+  "anchorable": 209,
+  "anchorable_share": 0.306,
+  "anchored": 26,
+  "conditional_restatement_rate": 0.1244
+ },
+ {
+  "metric_id": "salary_median",
+  "n": 819,
+  "anchorable": 204,
+  "anchorable_share": 0.2491,
+  "anchored": 132,
+  "conditional_restatement_rate": 0.6471
+ },
+ {
+  "metric_id": "infosec_pii_share",
+  "n": 13,
+  "anchorable": 1,
+  "anchorable_share": 0.0769,
+  "anchored": 1,
+  "conditional_restatement_rate": 1.0
+ },
+ {
+  "metric_id": "infosec_affected",
+  "n": 13,
+  "anchorable": 1,
+  "anchorable_share": 0.0769,
+  "anchored": 1,
+  "conditional_restatement_rate": 1.0
+ },
+ {
+  "metric_id": "injury_rate",
+  "n": 456,
+  "anchorable": 4,
+  "anchorable_share": 0.0088,
+  "anchored": 2,
+  "conditional_restatement_rate": 0.5
+ },
+ {
+  "metric_id": "injury_count",
+  "n": 468,
+  "anchorable": 0,
+  "anchorable_share": 0.0,
+  "anchored": 0,
+  "conditional_restatement_rate": null
+ },
+ {
+  "metric_id": "fire_count",
+  "n": 40,
+  "anchorable": 0,
+  "anchorable_share": 0.0,
+  "anchored": 0,
+  "conditional_restatement_rate": null
+ },
+ {
+  "metric_id": "fire_casualties",
+  "n": 7,
+  "anchorable": 0,
+  "anchorable_share": 0.0,
+  "anchored": 0,
+  "conditional_restatement_rate": null
+ },
+ {
+  "metric_id": "fire_cas_share",
+  "n": 6,
+  "anchorable": 0,
+  "anchorable_share": 0.0,
+  "anchored": 0,
+  "conditional_restatement_rate": null
+ },
+ {
+  "metric_id": "infosec_incidents",
+  "n": 19,
+  "anchorable": 0,
+  "anchorable_share": 0.0,
+  "anchored": 0,
+  "conditional_restatement_rate": null
+ }
+]

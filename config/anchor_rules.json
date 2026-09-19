@@ -1,0 +1,167 @@
+{
+ "conditions": {
+  "C1_exact_after_unit_normalisation": {
+   "rule": "every significant digit equal",
+   "tolerance": 0.0
+  },
+  "C2_min_significant_digits": 4,
+  "C3_exclude_round_numbers": {
+   "exclude": "10^k and {1,2,5}x10^k"
+  },
+  "C4_lexical_anchor_window_chars": 200
+ },
+ "unit_scales": {
+  "values": [
+   1,
+   10,
+   0.1,
+   100.0,
+   0.01,
+   1000.0,
+   0.001,
+   10000.0,
+   0.0001,
+   100000000.0,
+   1e-08
+  ],
+  "note": "Taiwanese reports quote 萬 (1e4) and 億 (1e8); 萬元 -> 仟元 is x10. Omitting these loses the 2610 salary items entirely (TASK-01)."
+ },
+ "lexical_anchors": {
+  "ghg_scope1": [
+   "範疇一",
+   "直接溫室氣體",
+   "直接排放"
+  ],
+  "ghg_scope2": [
+   "範疇二",
+   "間接溫室氣體",
+   "能源間接"
+  ],
+  "ghg_scope3": [
+   "範疇三",
+   "其他間接"
+  ],
+  "ghg_intensity": [
+   "密集度",
+   "排放強度",
+   "kg\\s*CO2e\\s*/",
+   "CO2e\\s*/\\s*(噸|公噸|每)",
+   "每\\s*(噸|公噸|單位).{0,6}(排放|CO2)",
+   "排放.{0,4}(強度|密集度)"
+  ],
+  "renewable_share": [
+   "再生能源",
+   "綠電",
+   "可再生"
+  ],
+  "water_use": [
+   "用水量",
+   "取水量",
+   "自來水"
+  ],
+  "water_intensity": [
+   "用水密集度",
+   "用水強度",
+   "單位鋼胚用水量",
+   "單位產品用水量",
+   "人均用水量",
+   "(公噸|噸)\\s*水?\\s*/\\s*(公噸|噸|單位)",
+   "每.{0,4}(噸|公噸|產品|人).{0,4}用水"
+  ],
+  "waste_hazard": [
+   "有害廢棄物"
+  ],
+  "waste_nonhazard": [
+   "非有害廢棄物",
+   "一般事業廢棄物"
+  ],
+  "waste_total": [
+   "廢棄物",
+   "廢棄物總量"
+  ],
+  "waste_intensity": [
+   "廢棄物密集度",
+   "廢棄物強度",
+   "人均廢棄物量",
+   "單位產品廢棄物",
+   "(公噸|噸)\\s*/\\s*(公噸|噸|單位)",
+   "每.{0,4}(噸|公噸|產品|人).{0,4}廢棄"
+  ],
+  "benefit_avg": [
+   "員工福利",
+   "福利費用"
+  ],
+  "salary_avg": [
+   "員工薪資",
+   "薪資平均"
+  ],
+  "nonmgr_salary_avg": [
+   "非擔任主管",
+   "非主管",
+   "非擔任主管職之平均薪資",
+   "非管理階層之全職人員薪資平均數"
+  ],
+  "nonmgr_salary_chg": [
+   "非擔任主管",
+   "非主管"
+  ],
+  "salary_median": [
+   "薪資中位數",
+   "員工薪資"
+  ],
+  "salary_median_chg": [
+   "薪資中位數",
+   "非主管"
+  ],
+  "female_mgr": [
+   "女性主管",
+   "管理職女性"
+  ],
+  "infosec_incidents": [
+   "資訊外洩",
+   "資安事件",
+   "個資"
+  ],
+  "infosec_pii_share": [
+   "個資",
+   "資訊外洩"
+  ],
+  "infosec_affected": [
+   "受影響",
+   "資訊外洩",
+   "個資"
+  ],
+  "injury_count": [
+   "職業災害",
+   "職災"
+  ],
+  "injury_rate": [
+   "職業災害",
+   "職災",
+   "失能傷害"
+  ],
+  "fire_count": [
+   "火災"
+  ],
+  "fire_casualties": [
+   "火災"
+  ],
+  "fire_cas_share": [
+   "火災"
+  ]
+ },
+ "provenance": "spec_ambiguities #11 supplied the three additions marked below",
+ "additions_from_ambiguity_11": [
+  "water_intensity",
+  "waste_intensity",
+  "nonmgr_salary_avg"
+ ],
+ "amendments": [
+  {
+   "task": "TASK-03R",
+   "change": "added unit-pattern anchors for the three intensity metrics",
+   "reason": "measured on 1101 p31 / 2002 p81: intensity is written as its unit (kg CO2e / 噸膠結材料) with no 密集度 wording",
+   "effect_on_false_match_bound": "widens the C4 anchor set, so m rises slightly; C1-C3 are untouched and dominate the bound. Recompute with real N, m, r in TASK-04R."
+  }
+ ]
+}

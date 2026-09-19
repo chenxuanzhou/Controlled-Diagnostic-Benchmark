@@ -1,0 +1,26 @@
+{
+ "mainline": "C2",
+ "locked": true,
+ "spec_version": "EXECUTION_SPEC_v2",
+ "rationale_ranked": [
+  "with no human annotation, only a perturbation ledger yields non-circular gold",
+  "real data is too easy and not by sampling accident: 68/95 exact matches, CONTRADICTED 1/95",
+  "at the M2-recommended eps=1.0% and every larger eps, the v1 decision rule returns C2"
+ ],
+ "evidence": {
+  "n_items_probe": 226,
+  "n_annotatable": 116,
+  "sup": 0.81,
+  "sup_wilson95": [
+   0.7295,
+   0.8713
+  ],
+  "ins": 0.181,
+  "ins_wilson95": [
+   0.1216,
+   0.261
+  ],
+  "option_B_excluded_because": "ins upper bound 0.261 < 0.30"
+ },
+ "silver_note": "the 226 probe items are silver (INV-10); they never enter headline numbers"
+}

@@ -1,0 +1,51 @@
+{
+ "n_checks": 4525,
+ "n_violations": 5,
+ "violation_rate": 0.0011,
+ "by_invariant": {
+  "waste_additivity": {
+   "n": 939,
+   "violations": 4,
+   "rate": 0.0043
+  },
+  "waste_ordering": {
+   "n": 939,
+   "violations": 1,
+   "rate": 0.0011
+  },
+  "waste_boundary_consistency": {
+   "n": 1070,
+   "violations": 0,
+   "rate": 0.0
+  },
+  "infosec_implication": {
+   "n": 507,
+   "violations": 0,
+   "rate": 0.0
+  },
+  "fire_implication": {
+   "n": 1070,
+   "violations": 0,
+   "rate": 0.0
+  }
+ },
+ "invariant_definitions": {
+  "waste_additivity": "有害廢棄物量 + 非有害廢棄物量 = 總重量(有害+非有害)",
+  "waste_ordering": "總重量 >= 有害廢棄物量 且 總重量 >= 非有害廢棄物量",
+  "waste_boundary_consistency": "三個廢棄物欄位的資料範圍應相同，否則總量不是同一口徑下的分項之和",
+  "infosec_implication": "受影響顧客數 > 0 蘊含 資訊外洩事件數量 > 0",
+  "fire_implication": "火災死傷人數 > 0 蘊含 火災件數 > 0"
+ },
+ "not_checkable": [
+  "scope1+scope2+scope3 = ghg_total (no filed total)",
+  "intensity x denominator = absolute (no filed denominator)"
+ ],
+ "excluded_as_not_definitional": {
+  "ghg_boundary_heterogeneity": {
+   "n_companies": 35,
+   "why": "inventorying scope 1 and scope 2 over different boundaries is permitted; a mismatch is an observation, not a rule violation. Counting it as gold would put judgement into G-A (INV-8)."
+  }
+ },
+ "tolerance": 0.01,
+ "gold_source": "G-A"
+}

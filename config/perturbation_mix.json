@@ -1,0 +1,85 @@
+{
+ "seed": 20260914,
+ "mix": {
+  "P-none": {
+   "share": 0.25,
+   "gold": "SUPPORTED",
+   "construction": "unchanged"
+  },
+  "P-magnitude": {
+   "share": 0.2,
+   "gold": "delta<=eps -> SUPPORTED else CONTRADICTED",
+   "grid_pct": [
+    0.1,
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    2,
+    5,
+    15
+   ],
+   "signed": true
+  },
+  "P-consolidation": {
+   "share": 0.15,
+   "gold": "NOT_COMPARABLE",
+   "maps_to": "consolidation"
+  },
+  "P-intensity": {
+   "share": 0.11,
+   "gold": "NOT_COMPARABLE",
+   "maps_to": "absolute_vs_intensity"
+  },
+  "P-scope": {
+   "share": 0.09,
+   "gold": "NOT_COMPARABLE",
+   "maps_to": "scope"
+  },
+  "P-indistinct": {
+   "share": 0.04,
+   "gold": "NOT_COMPARABLE",
+   "maps_to": "indistinguishable_metric"
+  },
+  "P-unit": {
+   "share": 0.06,
+   "gold": "CONTRADICTED",
+   "construction": "value x1e3, unit label unchanged"
+  },
+  "P-null": {
+   "share": 0.05,
+   "gold": "NOT_APPLICABLE",
+   "construction": "metric removed from filing"
+  },
+  "P-crosscompany": {
+   "share": 0.05,
+   "gold": "NOT_COMPARABLE",
+   "role": "negative control, floor 0.90"
+  }
+ },
+ "sums_to": 1.0,
+ "measured_mismatch_counts": {
+  "consolidation": 8,
+  "absolute_vs_intensity": 6,
+  "scope": 5,
+  "indistinguishable_metric": 2
+ },
+ "proportion_check": {
+  "P-consolidation": {
+   "in_mix": 0.385,
+   "measured": 0.381
+  },
+  "P-intensity": {
+   "in_mix": 0.282,
+   "measured": 0.286
+  },
+  "P-scope": {
+   "in_mix": 0.231,
+   "measured": 0.238
+  },
+  "P-indistinct": {
+   "in_mix": 0.103,
+   "measured": 0.095
+  }
+ }
+}

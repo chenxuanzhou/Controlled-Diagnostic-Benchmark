@@ -1,0 +1,667 @@
+{
+ "1103-2025-ghg_scope3-P-scope@v2": {
+  "value": 6791.7466,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1104-2025-waste_nonhazard-P-scope@v2": {
+  "value": 6616.153,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "包含合併財務報表之母子公司，惟不包含海外營運據點TEKSCAN",
+  "period": "114"
+ },
+ "1225-2025-ghg_scope2-P-scope@v2": {
+  "value": 2687.5937,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1307-2025-ghg_scope2-P-scope@v2": {
+  "value": 13282.0,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1307-2025-ghg_scope3-P-scope@v2": {
+  "value": 13282.0,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1307-2025-waste_total-P-scope@v2": {
+  "value": 241.0,
+  "unit": "公噸",
+  "scope": "waste_hazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "1308-2025-ghg_scope1-P-scope@v2": {
+  "value": 91290.9395,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1321-2025-ghg_scope2-P-scope@v2": {
+  "value": 11191.9431,
+  "unit": "tCO2e",
+  "scope": "ghg_scope3",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1324-2025-waste_hazard-P-scope@v2": {
+  "value": 74.41,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "1432-2025-ghg_scope1-P-scope@v2": {
+  "value": 2781.8868,
+  "unit": "tCO2e",
+  "scope": "ghg_scope3",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1440-2025-waste_nonhazard-P-scope@v2": {
+  "value": 0.08,
+  "unit": "公噸",
+  "scope": "waste_hazard",
+  "consolidation": "僅母公司",
+  "period": "114"
+ },
+ "1457-2025-ghg_scope1-P-scope@v2": {
+  "value": 51.9999,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成母公司,以「宜進公司及子公司(光明絲織廠股份有限公司、宏洲纖維工業股份有限公司、億東纖維股份有限公司、欣懋投資股份有限公司、大田國際開發股份有限公司、大宜國際開發股份有限公司)台北公司」為盤查範圍",
+  "period": "114"
+ },
+ "1474-2025-ghg_scope2-P-scope@v2": {
+  "value": 1255.34,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1514-2025-ghg_scope3-P-scope@v2": {
+  "value": 985.2408,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1514-2025-waste_total-P-scope@v2": {
+  "value": 625.4424,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "亞力電機股份有限公司",
+  "period": "114"
+ },
+ "1519-2025-ghg_scope1-P-scope@v2": {
+  "value": 67307.5499,
+  "unit": "tCO2e",
+  "scope": "ghg_scope3",
+  "consolidation": "母公司及部分子公司",
+  "period": "114"
+ },
+ "1524-2025-ghg_scope2-P-scope@v2": {
+  "value": 2631.1658,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1535-2025-ghg_scope1-P-scope@v2": {
+  "value": 4763.021,
+  "unit": "tCO2e",
+  "scope": "ghg_scope3",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1590-2025-waste_hazard-P-scope@v2": {
+  "value": 17174.0,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1597-2025-ghg_scope2-P-scope@v2": {
+  "value": 1130.6384,
+  "unit": "tCO2e",
+  "scope": "ghg_scope3",
+  "consolidation": "南科廠",
+  "period": "114"
+ },
+ "1598-2025-ghg_scope1-P-scope@v2": {
+  "value": 2087.1121,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1539-2025-ghg_scope3-P-scope@v2": {
+  "value": 134.3793,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1521-2025-waste_nonhazard-P-scope@v2": {
+  "value": 17.65,
+  "unit": "公噸",
+  "scope": "waste_hazard",
+  "consolidation": "合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1472-2025-waste_total-P-scope@v2": {
+  "value": 6279.9513,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "三洋實業及子公司總部據點及各施工案場",
+  "period": "114"
+ },
+ "1435-2025-ghg_scope1-P-scope@v2": {
+  "value": 53.212,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1217-2025-waste_total-P-indistinct@v2": {
+  "value": 2203.3,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "愛之味股份有限公司",
+  "period": "114"
+ },
+ "1514-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 625.4424,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "亞力電機股份有限公司",
+  "period": "114"
+ },
+ "1710-2025-waste_total-P-indistinct@v2": {
+  "value": 292.31,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "高雄市林園區工業三路3、5號",
+  "period": "114"
+ },
+ "1737-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 767.52,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "母公司個體／各列管據點：妝品廠、保健廠和通霄廠",
+  "period": "114"
+ },
+ "2206-2025-waste_total-P-indistinct@v2": {
+  "value": 9038.98,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "新竹廠、新豐廠、零件中心及宿舍",
+  "period": "114"
+ },
+ "2211-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 9006.66,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "母公司所有廠區及辦公區域 (不含台北總公司)",
+  "period": "114"
+ },
+ "2227-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 7.956,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "生活廢棄物",
+  "period": "114"
+ },
+ "2233-2025-waste_total-P-indistinct@v2": {
+  "value": 658.288,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "2467-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 218.2,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "林口總部、台北廠、台中廠、南區辦事處",
+  "period": "114"
+ },
+ "2069-2025-waste_total-P-indistinct@v2": {
+  "value": 384.78,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "2211-2025-waste_total-P-indistinct@v2": {
+  "value": 9006.66,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司所有廠區及辦公區域 (不含台北總公司)",
+  "period": "114"
+ },
+ "1225-2025-waste_total-P-indistinct@v2": {
+  "value": 958.81,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "2207-2025-waste_total-P-indistinct@v2": {
+  "value": 77.75,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "和泰母公司",
+  "period": "114"
+ },
+ "1710-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 292.31,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "高雄市林園區工業三路3、5號",
+  "period": "114"
+ },
+ "1310-2025-waste_total-P-indistinct@v2": {
+  "value": 11387.447,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "台苯高雄廠(高雄市林園區工業一路7號)",
+  "period": "114"
+ },
+ "2258-2025-waste_total-P-indistinct@v2": {
+  "value": 507.62,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "包含合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1104-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 6616.153,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "包含合併財務報表之母子公司，惟不包含海外營運據點TEKSCAN",
+  "period": "114"
+ },
+ "1810-2025-waste_total-P-indistinct@v2": {
+  "value": 3222.03,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "二廠:新北市鶯歌區八德路1號\n桃園廠:桃園市八德區大發里6鄰福德一路405號\n八德廠:桃園市八德區大發里後庄街89號、135號",
+  "period": "114"
+ },
+ "1598-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 352.45,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "彰化本廠、⼆廠、五廠、台中",
+  "period": "114"
+ },
+ "1522-2025-waste_total-P-indistinct@v2": {
+  "value": 804.4,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司-安平廠及科工1-3廠",
+  "period": "114"
+ },
+ "1614-2025-waste_total-P-indistinct@v2": {
+  "value": 1337.42,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "台灣三洋電機股份有限公司及三洋全能股份有限公司\n",
+  "period": "114"
+ },
+ "1454-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 31.03,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "母子公司合計",
+  "period": "114"
+ },
+ "2332-2025-waste_total-P-indistinct@v2": {
+  "value": 16.75,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "公司總部大樓",
+  "period": "114"
+ },
+ "2424-2025-waste_total-P-indistinct@v2": {
+  "value": 3.0487,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "隴華母公司\n",
+  "period": "114"
+ },
+ "1231-2025-waste_total-P-indistinct@v2": {
+  "value": 8804.08,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "總公司、各辦事處及各廠區",
+  "period": "114"
+ },
+ "1457-2025-waste_total-P-indistinct@v2": {
+  "value": 2.904,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "「宜進實業股份有限公司及子公司(光明絲織廠股份有限公司、宏洲纖維工業股份有限公司、億東纖維股份有限公司、欣懋投資股份有限公司、大田國際開發股份有限公司、大宜國際開發股份有限公司) 台北公司",
+  "period": "114"
+ },
+ "1309-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 4995.1,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "林園廠/前鎮廠/頭份廠/中山廠",
+  "period": "114"
+ },
+ "2471-2025-waste_total-P-indistinct@v2": {
+  "value": 90.783,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "1477-2025-waste_total-P-indistinct@v2": {
+  "value": 11703.13,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司及部分子公司\n1.\tMakalot Industrial Co., Ltd. \n2.\tMoha Garments Co., Ltd. \n3.\tMakalot Garments (Cambodia) Co., Ltd.\n4.\tMakalot Garments (Vietnam) Co., Ltd.\n5.\tTriple Garment (Vietnam) Co., Ltd.\n6.\tLeader Garment (Vietnam) Co., Ltd.\n7.\tPT Glory Industrial Semarang\n8.\tPT Starlight Garment Semarang\n9.\tJiaxing Suntex Garment Co., Ltd.\n10.\tJiaxing Rising Garments Co., Ltd.",
+  "period": "114"
+ },
+ "1712-2025-waste_nonhazard-P-indistinct@v2": {
+  "value": 3033.61,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "母公司王田廠、王田二廠、王田三廠、生物工廠、大肚廠",
+  "period": "114"
+ },
+ "1104-2025-water_use-P-intensity@v2": {
+  "value": 49.4112,
+  "unit": "公噸/單位",
+  "scope": "water_intensity",
+  "consolidation": "包含合併財務報表之母子公司，惟不包含海外營運據點TEKSCAN",
+  "period": "114"
+ },
+ "1216-2025-water_use-P-intensity@v2": {
+  "value": 85.203,
+  "unit": "公噸/單位",
+  "scope": "water_intensity",
+  "consolidation": "永康總廠、新市總廠(含冰品廠、冷調食品廠)、台中總廠、楊梅總廠(含瑞芳礦泉水廠)及中壢總廠 (含麻豆麵包廠)、TMR、物流倉庫、台北分公司、高雄辦公室、內湖辦公室、五股辦公室、湖口園區(含冰塊廠)等廠區",
+  "period": "114"
+ },
+ "1218-2025-ghg_scope1-P-intensity@v2": {
+  "value": 1.2004,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1231-2025-ghg_intensity-P-intensity@v2": {
+  "value": 11340.5989,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1234-2025-waste_intensity-P-intensity@v2": {
+  "value": 2836.0,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "中壢廠、斗六廠",
+  "period": "114"
+ },
+ "1324-2025-ghg_intensity-P-intensity@v2": {
+  "value": 3257.4133,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1463-2025-ghg_scope1-P-intensity@v2": {
+  "value": 94.9,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1515-2025-ghg_scope1-P-intensity@v2": {
+  "value": 8.877,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成母公司,已完成\n母公司：力山工業股份有限公司\n子公司：力山科技股份有限公司、Power Tool Specialists Inc.",
+  "period": "114"
+ },
+ "1524-2025-ghg_scope1-P-intensity@v2": {
+  "value": 2.922,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1537-2025-ghg_intensity-P-intensity@v2": {
+  "value": 7177.6018,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1590-2025-waste_total-P-intensity@v2": {
+  "value": 0.67,
+  "unit": "公噸/單位",
+  "scope": "waste_intensity",
+  "consolidation": "",
+  "period": "114"
+ },
+ "1608-2025-ghg_intensity-P-intensity@v2": {
+  "value": 4278.975,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1618-2025-waste_total-P-intensity@v2": {
+  "value": 0.1803,
+  "unit": "公噸/單位",
+  "scope": "waste_intensity",
+  "consolidation": "",
+  "period": "114"
+ },
+ "1713-2025-ghg_scope1-P-intensity@v2": {
+  "value": 14.81,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1717-2025-waste_total-P-intensity@v2": {
+  "value": 0.0883,
+  "unit": "公噸/單位",
+  "scope": "waste_intensity",
+  "consolidation": "",
+  "period": "114"
+ },
+ "1108-2025-ghg_intensity-P-none@v2": {
+  "value": 126.9793,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1109-2025-water_use-P-none@v2": {
+  "value": 553131.0,
+  "unit": "公噸",
+  "scope": "water_use",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "1233-2025-ghg_scope1-P-none@v2": {
+  "value": 1380.25,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1233-2025-waste_total-P-none@v2": {
+  "value": 1502.94,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "包含製茶總廠、業務中心、總公司、商場門市與非商場門市等。",
+  "period": "114"
+ },
+ "1304-2025-nonmgr_salary_avg-P-none@v2": {
+  "value": 1081.0,
+  "unit": "仟元/人",
+  "scope": "nonmgr_salary_avg",
+  "consolidation": "",
+  "period": "114"
+ },
+ "1307-2025-renewable_share-P-none@v2": {
+  "value": 62.67,
+  "unit": "%",
+  "scope": "renewable_share",
+  "consolidation": "合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1308-2025-waste_total-P-none@v2": {
+  "value": 409.43,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "林園廠",
+  "period": "114"
+ },
+ "1309-2025-water_use-P-none@v2": {
+  "value": 1027909.0149,
+  "unit": "公噸",
+  "scope": "water_use",
+  "consolidation": "林園廠/前鎮廠/頭份廠/中山廠",
+  "period": "114"
+ },
+ "1314-2025-waste_nonhazard-P-none@v2": {
+  "value": 15109.0,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "主要生產工廠",
+  "period": "114"
+ },
+ "1315-2025-ghg_scope2-P-none@v2": {
+  "value": 2760.9764,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1323-2025-ghg_scope1-P-none@v2": {
+  "value": 310.117,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1324-2025-ghg_intensity-P-none@v2": {
+  "value": 7.2623,
+  "unit": "tCO2e/單位",
+  "scope": "ghg_intensity",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1342-2025-waste_total-P-none@v2": {
+  "value": 1206.96,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1442-2025-ghg_scope1-P-none@v2": {
+  "value": 15.4871,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1454-2025-ghg_scope1-P-none@v2": {
+  "value": 448.2262,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1457-2025-waste_nonhazard-P-none@v2": {
+  "value": 2.904,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "「宜進實業股份有限公司及子公司(光明絲織廠股份有限公司、宏洲纖維工業股份有限公司、億東纖維股份有限公司、欣懋投資股份有限公司、大田國際開發股份有限公司、大宜國際開發股份有限公司) 台北公司",
+  "period": "114"
+ },
+ "1463-2025-ghg_scope2-P-none@v2": {
+  "value": 17125.0,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1472-2025-water_use-P-none@v2": {
+  "value": 39465.0,
+  "unit": "公噸",
+  "scope": "water_use",
+  "consolidation": "三洋實業及子公司總部據點及各施工案場",
+  "period": "114"
+ },
+ "1474-2025-ghg_scope2-P-none@v2": {
+  "value": 11360.85,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成母公司",
+  "period": "114"
+ },
+ "1474-2025-water_use-P-none@v2": {
+  "value": 629508.0,
+  "unit": "公噸",
+  "scope": "water_use",
+  "consolidation": "弘裕企業公司(伸港廠、全興廠、和美廠)",
+  "period": "114"
+ },
+ "1477-2025-ghg_scope1-P-none@v2": {
+  "value": 10263.4075,
+  "unit": "tCO2e",
+  "scope": "ghg_scope1",
+  "consolidation": "114年度完成母公司(台北總部及嘉義研發中心)及位於越南、柬埔寨、印尼與中國10家海外子公司，合計共17個營運據點的範疇一、二、三盤查與第三方查證。\n1.\tMakalot Industrial Co., Ltd. \n2.\tMoha Garments Co., Ltd. \n3.\tMakalot Garments (Cambodia) Co., Ltd.\n4.\tMakalot Garments (Vietnam) Co., Ltd.\n5.\tTriple Garment (Vietnam) Co., Ltd.\n6.\tLeader Garment (Vietnam) Co., Ltd.\n7.\tPT Glory Industrial Semarang\n8.\tPT Starlight Garment Semarang\n9.\tJiaxing Suntex Garment Co., Ltd.\n10.\tJiaxing Rising Garments Co., Ltd.\n11.\tMakalot El Salvador S.A. de C.V.",
+  "period": "114"
+ },
+ "1533-2025-water_use-P-none@v2": {
+  "value": 7904.0,
+  "unit": "公噸",
+  "scope": "water_use",
+  "consolidation": "台灣母公司",
+  "period": "114"
+ },
+ "1535-2025-ghg_scope2-P-none@v2": {
+  "value": 598.3409,
+  "unit": "tCO2e",
+  "scope": "ghg_scope2",
+  "consolidation": "已完成合併財務報表之母子公司",
+  "period": "114"
+ },
+ "1587-2025-waste_nonhazard-P-none@v2": {
+  "value": 27.942,
+  "unit": "公噸",
+  "scope": "waste_nonhazard",
+  "consolidation": "母公司",
+  "period": "114"
+ },
+ "1587-2025-waste_total-P-none@v2": {
+  "value": 27.942,
+  "unit": "公噸",
+  "scope": "waste_total",
+  "consolidation": "母公司",
+  "period": "114"
+ }
+}

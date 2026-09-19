@@ -1,0 +1,18 @@
+{
+ "epsilon": 0.01,
+ "unit": "relative",
+ "basis": "natural valley of the |delta| distribution on scope-aligned probe items",
+ "valley": {
+  "from": 0.009009,
+  "to": 0.016182,
+  "width_pp": 0.717
+ },
+ "sensitivity": [
+  0.005,
+  0.01,
+  0.02
+ ],
+ "not_chosen_by_convention": true,
+ "leverage_note": "only 2 of 95 scope-aligned items exceed 1%; eps has almost no leverage on real data. That is precisely why P-magnitude exists -- the dense grid manufactures the samples across the tolerance boundary that reality does not provide.",
+ "rounding_clause": "a narrative figure quoted to fewer digits is SUPPORTED when the filed value falls inside its rounding interval; this branch is parallel to the relative tolerance, not subordinate to it (spec_ambiguities #15)"
+}

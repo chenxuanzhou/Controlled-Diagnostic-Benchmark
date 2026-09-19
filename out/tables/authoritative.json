@@ -1,0 +1,2764 @@
+{
+ "gold_source": "data/benchmark/ledger_sealed.jsonl",
+ "paired_conditions": [
+  "C0",
+  "C1",
+  "C3",
+  "C4"
+ ],
+ "paired_n": 88,
+ "full": {
+  "C0": {
+   "n": 220,
+   "accuracy": 0.6364,
+   "acc_ci": [
+    0.571,
+    0.6971
+   ],
+   "overclaim": 0.5204,
+   "overclaim_n": 98,
+   "abstention": {
+    "precision": 0.6267,
+    "recall": 0.4796,
+    "f1": 0.5434,
+    "tp": 47,
+    "fp": 28,
+    "fn": 51
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.7647,
+     "n": 34,
+     "ci": [
+      0.6,
+      0.8756
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.8182,
+     "n": 11,
+     "ci": [
+      0.523,
+      0.9486
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.1111,
+     "n": 9,
+     "ci": [
+      0.0199,
+      0.435
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3333,
+     "n": 24,
+     "ci": [
+      0.1797,
+      0.5329
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6818,
+     "n": 44,
+     "ci": [
+      0.5344,
+      0.8
+     ]
+    },
+    "P-none": {
+     "acc": 0.8113,
+     "n": 53,
+     "ci": [
+      0.6864,
+      0.8941
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 12,
+     "ci": [
+      0.7575,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.15,
+     "n": 20,
+     "ci": [
+      0.0524,
+      0.3604
+     ]
+    },
+    "P-unit": {
+     "acc": 0.6154,
+     "n": 13,
+     "ci": [
+      0.3552,
+      0.8229
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 26,
+     "SUPPORTED": 8
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 2,
+     "NOT_COMPARABLE": 9
+    },
+    "P-indistinct": {
+     "SUPPORTED": 8,
+     "NOT_COMPARABLE": 1
+    },
+    "P-intensity": {
+     "CONTRADICTED": 15,
+     "NOT_COMPARABLE": 8,
+     "SUPPORTED": 1
+    },
+    "P-magnitude": {
+     "NOT_COMPARABLE": 14,
+     "SUPPORTED": 8,
+     "CONTRADICTED": 22
+    },
+    "P-none": {
+     "SUPPORTED": 43,
+     "NOT_COMPARABLE": 10
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 12
+    },
+    "P-scope": {
+     "CONTRADICTED": 15,
+     "SUPPORTED": 2,
+     "NOT_COMPARABLE": 3
+    },
+    "P-unit": {
+     "CONTRADICTED": 8,
+     "NOT_COMPARABLE": 4,
+     "SUPPORTED": 1
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 3,
+     "rate": 0.6667,
+     "ci": [
+      0.2077,
+      0.9385
+     ]
+    },
+    "0.6": {
+     "supported": 1,
+     "n": 1,
+     "rate": 1.0,
+     "ci": [
+      0.2065,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 3,
+     "n": 6,
+     "rate": 0.5,
+     "ci": [
+      0.1876,
+      0.8124
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 12,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2425
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 6,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3903
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 10,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2775
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 17,
+    "absolute_vs_intensity->absolute_vs_intensity": 4,
+    "absolute_vs_intensity->consolidation": 2,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 8,
+    "consolidation->absolute_vs_intensity": 1,
+    "consolidation->consolidation": 21,
+    "consolidation->scope": 4,
+    "cross_company->None": 2,
+    "cross_company->absolute_vs_intensity": 1,
+    "cross_company->consolidation": 7,
+    "cross_company->indistinguishable_metric": 1,
+    "indistinguishable_metric->None": 8,
+    "indistinguishable_metric->scope": 1,
+    "scope->None": 17,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 2
+   },
+   "calls": 235,
+   "errors": 6,
+   "unparsed": 9
+  },
+  "C1": {
+   "n": 221,
+   "accuracy": 0.6697,
+   "acc_ci": [
+    0.6052,
+    0.7283
+   ],
+   "overclaim": 0.5,
+   "overclaim_n": 96,
+   "abstention": {
+    "precision": 0.6667,
+    "recall": 0.5,
+    "f1": 0.5714,
+    "tp": 48,
+    "fp": 24,
+    "fn": 48
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.7576,
+     "n": 33,
+     "ci": [
+      0.5898,
+      0.8717
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.7273,
+     "n": 11,
+     "ci": [
+      0.4343,
+      0.9025
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.2222,
+     "n": 9,
+     "ci": [
+      0.0632,
+      0.5474
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3478,
+     "n": 23,
+     "ci": [
+      0.1881,
+      0.5511
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6364,
+     "n": 44,
+     "ci": [
+      0.4887,
+      0.7622
+     ]
+    },
+    "P-none": {
+     "acc": 0.875,
+     "n": 56,
+     "ci": [
+      0.7637,
+      0.9381
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 12,
+     "ci": [
+      0.7575,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.25,
+     "n": 20,
+     "ci": [
+      0.1119,
+      0.4687
+     ]
+    },
+    "P-unit": {
+     "acc": 0.8462,
+     "n": 13,
+     "ci": [
+      0.5776,
+      0.9567
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 25,
+     "SUPPORTED": 8
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 3,
+     "NOT_COMPARABLE": 8
+    },
+    "P-indistinct": {
+     "SUPPORTED": 7,
+     "NOT_COMPARABLE": 2
+    },
+    "P-intensity": {
+     "CONTRADICTED": 14,
+     "NOT_COMPARABLE": 8,
+     "SUPPORTED": 1
+    },
+    "P-magnitude": {
+     "SUPPORTED": 9,
+     "NOT_COMPARABLE": 15,
+     "CONTRADICTED": 20
+    },
+    "P-none": {
+     "SUPPORTED": 49,
+     "NOT_COMPARABLE": 7
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 12
+    },
+    "P-scope": {
+     "SUPPORTED": 2,
+     "CONTRADICTED": 13,
+     "NOT_COMPARABLE": 5
+    },
+    "P-unit": {
+     "CONTRADICTED": 11,
+     "NOT_COMPARABLE": 2
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 3,
+     "n": 3,
+     "rate": 1.0,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    },
+    "0.6": {
+     "supported": 1,
+     "n": 1,
+     "rate": 1.0,
+     "ci": [
+      0.2065,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 3,
+     "n": 6,
+     "rate": 0.5,
+     "ci": [
+      0.1876,
+      0.8124
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 12,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2425
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 5,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4345
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 9,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2992
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 6,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3903
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 14,
+    "absolute_vs_intensity->absolute_vs_intensity": 6,
+    "absolute_vs_intensity->consolidation": 1,
+    "absolute_vs_intensity->scope": 2,
+    "consolidation->None": 9,
+    "consolidation->absolute_vs_intensity": 1,
+    "consolidation->consolidation": 19,
+    "consolidation->indistinguishable_metric": 1,
+    "consolidation->scope": 3,
+    "cross_company->None": 3,
+    "cross_company->absolute_vs_intensity": 2,
+    "cross_company->consolidation": 5,
+    "cross_company->indistinguishable_metric": 1,
+    "indistinguishable_metric->None": 7,
+    "indistinguishable_metric->consolidation": 1,
+    "indistinguishable_metric->scope": 1,
+    "scope->None": 14,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1,
+    "scope->scope": 4
+   },
+   "calls": 235,
+   "errors": 8,
+   "unparsed": 6
+  },
+  "C3": {
+   "n": 106,
+   "accuracy": 0.6226,
+   "acc_ci": [
+    0.5276,
+    0.7091
+   ],
+   "overclaim": 0.5636,
+   "overclaim_n": 55,
+   "abstention": {
+    "precision": 0.8,
+    "recall": 0.4364,
+    "f1": 0.5647,
+    "tp": 24,
+    "fp": 6,
+    "fn": 31
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.5455,
+     "n": 22,
+     "ci": [
+      0.3466,
+      0.7308
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.6667,
+     "n": 6,
+     "ci": [
+      0.3,
+      0.9032
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3846,
+     "n": 13,
+     "ci": [
+      0.1771,
+      0.6448
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.7222,
+     "n": 18,
+     "ci": [
+      0.4913,
+      0.875
+     ]
+    },
+    "P-none": {
+     "acc": 0.875,
+     "n": 24,
+     "ci": [
+      0.69,
+      0.9566
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.3,
+     "n": 10,
+     "ci": [
+      0.1078,
+      0.6032
+     ]
+    },
+    "P-unit": {
+     "acc": 0.8,
+     "n": 5,
+     "ci": [
+      0.3755,
+      0.9638
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 12,
+     "SUPPORTED": 10
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 2,
+     "NOT_COMPARABLE": 4
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 8,
+     "NOT_COMPARABLE": 5
+    },
+    "P-magnitude": {
+     "SUPPORTED": 4,
+     "CONTRADICTED": 11,
+     "NOT_COMPARABLE": 3
+    },
+    "P-none": {
+     "SUPPORTED": 21,
+     "NOT_COMPARABLE": 3
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 4
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 3,
+     "CONTRADICTED": 7
+    },
+    "P-unit": {
+     "CONTRADICTED": 4,
+     "SUPPORTED": 1
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 7,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->consolidation": 1,
+    "absolute_vs_intensity->indistinguishable_metric": 1,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 10,
+    "consolidation->consolidation": 11,
+    "consolidation->scope": 1,
+    "cross_company->None": 2,
+    "cross_company->consolidation": 3,
+    "cross_company->scope": 1,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 7,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1,
+    "scope->indistinguishable_metric": 1
+   },
+   "calls": 120,
+   "errors": 7,
+   "unparsed": 7
+  },
+  "C4": {
+   "n": 99,
+   "accuracy": 0.596,
+   "acc_ci": [
+    0.4975,
+    0.6873
+   ],
+   "overclaim": 0.4038,
+   "overclaim_n": 52,
+   "abstention": {
+    "precision": 0.62,
+    "recall": 0.5962,
+    "f1": 0.6078,
+    "tp": 31,
+    "fp": 19,
+    "fn": 21
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.7143,
+     "n": 21,
+     "ci": [
+      0.5004,
+      0.8619
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.4,
+     "n": 5,
+     "ci": [
+      0.1176,
+      0.7693
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.5,
+     "n": 12,
+     "ci": [
+      0.2538,
+      0.7462
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6,
+     "n": 15,
+     "ci": [
+      0.3575,
+      0.8018
+     ]
+    },
+    "P-none": {
+     "acc": 0.5769,
+     "n": 26,
+     "ci": [
+      0.3895,
+      0.7446
+     ]
+    },
+    "P-null": {
+     "acc": 0.6667,
+     "n": 3,
+     "ci": [
+      0.2077,
+      0.9385
+     ]
+    },
+    "P-scope": {
+     "acc": 0.8,
+     "n": 10,
+     "ci": [
+      0.4902,
+      0.9433
+     ]
+    },
+    "P-unit": {
+     "acc": 0.6667,
+     "n": 3,
+     "ci": [
+      0.2077,
+      0.9385
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 15,
+     "SUPPORTED": 6
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 3,
+     "NOT_COMPARABLE": 2
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 6,
+     "NOT_COMPARABLE": 6
+    },
+    "P-magnitude": {
+     "SUPPORTED": 4,
+     "NOT_COMPARABLE": 6,
+     "CONTRADICTED": 5
+    },
+    "P-none": {
+     "SUPPORTED": 15,
+     "NOT_COMPARABLE": 11
+    },
+    "P-null": {
+     "NOT_COMPARABLE": 1,
+     "NOT_APPLICABLE": 2
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 8,
+     "SUPPORTED": 1,
+     "CONTRADICTED": 1
+    },
+    "P-unit": {
+     "CONTRADICTED": 2,
+     "NOT_COMPARABLE": 1
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 6,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->consolidation": 2,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 6,
+    "consolidation->consolidation": 15,
+    "cross_company->None": 3,
+    "cross_company->consolidation": 2,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 1,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 2,
+    "scope->scope": 6
+   },
+   "calls": 120,
+   "errors": 8,
+   "unparsed": 13
+  },
+  "C3-calc": {
+   "n": 109,
+   "accuracy": 0.6055,
+   "acc_ci": [
+    0.5117,
+    0.6922
+   ],
+   "overclaim": 0.5636,
+   "overclaim_n": 55,
+   "abstention": {
+    "precision": 0.6857,
+    "recall": 0.4364,
+    "f1": 0.5333,
+    "tp": 24,
+    "fp": 11,
+    "fn": 31
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.5238,
+     "n": 21,
+     "ci": [
+      0.3237,
+      0.7166
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.7143,
+     "n": 7,
+     "ci": [
+      0.3589,
+      0.9178
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.4615,
+     "n": 13,
+     "ci": [
+      0.2321,
+      0.7086
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6111,
+     "n": 18,
+     "ci": [
+      0.3862,
+      0.797
+     ]
+    },
+    "P-none": {
+     "acc": 0.8148,
+     "n": 27,
+     "ci": [
+      0.633,
+      0.9182
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 5,
+     "ci": [
+      0.5655,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.2,
+     "n": 10,
+     "ci": [
+      0.0567,
+      0.5098
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 11,
+     "SUPPORTED": 10
+    },
+    "P-crosscompany": {
+     "NOT_COMPARABLE": 5,
+     "CONTRADICTED": 2
+    },
+    "P-indistinct": {
+     "SUPPORTED": 3,
+     "CONTRADICTED": 1
+    },
+    "P-intensity": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 6
+    },
+    "P-magnitude": {
+     "SUPPORTED": 5,
+     "NOT_COMPARABLE": 7,
+     "CONTRADICTED": 6
+    },
+    "P-none": {
+     "SUPPORTED": 22,
+     "NOT_COMPARABLE": 4,
+     "CONTRADICTED": 1
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 5
+    },
+    "P-scope": {
+     "CONTRADICTED": 8,
+     "NOT_COMPARABLE": 2
+    },
+    "P-unit": {
+     "CONTRADICTED": 4
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.6": {
+     "supported": 1,
+     "n": 1,
+     "rate": 1.0,
+     "ci": [
+      0.2065,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 5,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->consolidation": 3,
+    "absolute_vs_intensity->indistinguishable_metric": 1,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 10,
+    "consolidation->consolidation": 10,
+    "consolidation->scope": 1,
+    "cross_company->None": 2,
+    "cross_company->consolidation": 4,
+    "cross_company->scope": 1,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 8,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1
+   },
+   "calls": 120,
+   "errors": 7,
+   "unparsed": 4
+  },
+  "C3-filing_lookup": {
+   "n": 115,
+   "accuracy": 0.5043,
+   "acc_ci": [
+    0.4143,
+    0.5941
+   ],
+   "overclaim": 0.0,
+   "overclaim_n": 59,
+   "abstention": {
+    "precision": 0.5179,
+    "recall": 0.9831,
+    "f1": 0.6784,
+    "tp": 58,
+    "fp": 54,
+    "fn": 1
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 1.0,
+     "n": 22,
+     "ci": [
+      0.8513,
+      1.0
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 1.0,
+     "n": 7,
+     "ci": [
+      0.6457,
+      1.0
+     ]
+    },
+    "P-indistinct": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.9333,
+     "n": 15,
+     "ci": [
+      0.7018,
+      0.9881
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.0,
+     "n": 18,
+     "ci": [
+      0.0,
+      0.1759
+     ]
+    },
+    "P-none": {
+     "acc": 0.0,
+     "n": 28,
+     "ci": [
+      0.0,
+      0.1206
+     ]
+    },
+    "P-null": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-scope": {
+     "acc": 1.0,
+     "n": 11,
+     "ci": [
+      0.7412,
+      1.0
+     ]
+    },
+    "P-unit": {
+     "acc": 0.0,
+     "n": 6,
+     "ci": [
+      0.0,
+      0.3903
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 22
+    },
+    "P-crosscompany": {
+     "NOT_COMPARABLE": 7
+    },
+    "P-indistinct": {
+     "NOT_COMPARABLE": 4
+    },
+    "P-intensity": {
+     "NOT_COMPARABLE": 14,
+     "NOT_APPLICABLE": 1
+    },
+    "P-magnitude": {
+     "NOT_COMPARABLE": 16,
+     "NOT_APPLICABLE": 2
+    },
+    "P-none": {
+     "NOT_COMPARABLE": 28
+    },
+    "P-null": {
+     "NOT_COMPARABLE": 4
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 11
+    },
+    "P-unit": {
+     "NOT_COMPARABLE": 6
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "0.3": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "0.6": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 12,
+    "absolute_vs_intensity->indistinguishable_metric": 3,
+    "consolidation->None": 21,
+    "consolidation->indistinguishable_metric": 1,
+    "cross_company->None": 6,
+    "cross_company->indistinguishable_metric": 1,
+    "indistinguishable_metric->None": 3,
+    "indistinguishable_metric->scope": 1,
+    "scope->None": 10,
+    "scope->indistinguishable_metric": 1
+   },
+   "calls": 120,
+   "errors": 3,
+   "unparsed": 2
+  }
+ },
+ "paired": {
+  "C0": {
+   "n": 88,
+   "accuracy": 0.6477,
+   "acc_ci": [
+    0.5437,
+    0.7394
+   ],
+   "overclaim": 0.4792,
+   "overclaim_n": 48,
+   "abstention": {
+    "precision": 0.7576,
+    "recall": 0.5208,
+    "f1": 0.6173,
+    "tp": 25,
+    "fp": 8,
+    "fn": 23
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.75,
+     "n": 20,
+     "ci": [
+      0.5313,
+      0.8881
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.8,
+     "n": 5,
+     "ci": [
+      0.3755,
+      0.9638
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.4,
+     "n": 10,
+     "ci": [
+      0.1682,
+      0.6873
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.7692,
+     "n": 13,
+     "ci": [
+      0.4974,
+      0.9182
+     ]
+    },
+    "P-none": {
+     "acc": 0.7727,
+     "n": 22,
+     "ci": [
+      0.5656,
+      0.8988
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 2,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.2222,
+     "n": 9,
+     "ci": [
+      0.0632,
+      0.5474
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 3,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 15,
+     "SUPPORTED": 5
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 1,
+     "NOT_COMPARABLE": 4
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 6,
+     "NOT_COMPARABLE": 4
+    },
+    "P-magnitude": {
+     "NOT_COMPARABLE": 3,
+     "SUPPORTED": 5,
+     "CONTRADICTED": 5
+    },
+    "P-none": {
+     "SUPPORTED": 17,
+     "NOT_COMPARABLE": 5
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 2
+    },
+    "P-scope": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 2
+    },
+    "P-unit": {
+     "CONTRADICTED": 3
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 1,
+     "n": 3,
+     "rate": 0.3333,
+     "ci": [
+      0.0615,
+      0.7923
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 7,
+    "absolute_vs_intensity->absolute_vs_intensity": 2,
+    "absolute_vs_intensity->consolidation": 1,
+    "consolidation->None": 5,
+    "consolidation->consolidation": 12,
+    "consolidation->scope": 3,
+    "cross_company->None": 1,
+    "cross_company->consolidation": 4,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 7,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1
+   }
+  },
+  "C1": {
+   "n": 88,
+   "accuracy": 0.7273,
+   "acc_ci": [
+    0.6262,
+    0.8093
+   ],
+   "overclaim": 0.375,
+   "overclaim_n": 48,
+   "abstention": {
+    "precision": 0.8571,
+    "recall": 0.625,
+    "f1": 0.7229,
+    "tp": 30,
+    "fp": 5,
+    "fn": 18
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.85,
+     "n": 20,
+     "ci": [
+      0.6396,
+      0.9476
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.8,
+     "n": 5,
+     "ci": [
+      0.3755,
+      0.9638
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.25,
+     "n": 4,
+     "ci": [
+      0.0456,
+      0.6994
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.5,
+     "n": 10,
+     "ci": [
+      0.2366,
+      0.7634
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.7692,
+     "n": 13,
+     "ci": [
+      0.4974,
+      0.9182
+     ]
+    },
+    "P-none": {
+     "acc": 0.8636,
+     "n": 22,
+     "ci": [
+      0.6666,
+      0.9525
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 2,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.3333,
+     "n": 9,
+     "ci": [
+      0.1206,
+      0.6458
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 3,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 17,
+     "SUPPORTED": 3
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 1,
+     "NOT_COMPARABLE": 4
+    },
+    "P-indistinct": {
+     "SUPPORTED": 3,
+     "NOT_COMPARABLE": 1
+    },
+    "P-intensity": {
+     "CONTRADICTED": 5,
+     "NOT_COMPARABLE": 5
+    },
+    "P-magnitude": {
+     "SUPPORTED": 5,
+     "NOT_COMPARABLE": 2,
+     "CONTRADICTED": 6
+    },
+    "P-none": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 3
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 2
+    },
+    "P-scope": {
+     "CONTRADICTED": 6,
+     "NOT_COMPARABLE": 3
+    },
+    "P-unit": {
+     "CONTRADICTED": 3
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 1,
+     "n": 3,
+     "rate": 0.3333,
+     "ci": [
+      0.0615,
+      0.7923
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 5,
+    "absolute_vs_intensity->absolute_vs_intensity": 2,
+    "absolute_vs_intensity->consolidation": 1,
+    "absolute_vs_intensity->scope": 2,
+    "consolidation->None": 4,
+    "consolidation->consolidation": 13,
+    "consolidation->indistinguishable_metric": 1,
+    "consolidation->scope": 2,
+    "cross_company->None": 1,
+    "cross_company->consolidation": 3,
+    "cross_company->indistinguishable_metric": 1,
+    "indistinguishable_metric->None": 3,
+    "indistinguishable_metric->scope": 1,
+    "scope->None": 5,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1,
+    "scope->scope": 2
+   }
+  },
+  "C3": {
+   "n": 88,
+   "accuracy": 0.6023,
+   "acc_ci": [
+    0.4978,
+    0.6982
+   ],
+   "overclaim": 0.5833,
+   "overclaim_n": 48,
+   "abstention": {
+    "precision": 0.8,
+    "recall": 0.4167,
+    "f1": 0.5479,
+    "tp": 20,
+    "fp": 5,
+    "fn": 28
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.55,
+     "n": 20,
+     "ci": [
+      0.3421,
+      0.7418
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.8,
+     "n": 5,
+     "ci": [
+      0.3755,
+      0.9638
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3,
+     "n": 10,
+     "ci": [
+      0.1078,
+      0.6032
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6154,
+     "n": 13,
+     "ci": [
+      0.3552,
+      0.8229
+     ]
+    },
+    "P-none": {
+     "acc": 0.9091,
+     "n": 22,
+     "ci": [
+      0.7218,
+      0.9747
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 2,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.2222,
+     "n": 9,
+     "ci": [
+      0.0632,
+      0.5474
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 3,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 11,
+     "SUPPORTED": 9
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 1,
+     "NOT_COMPARABLE": 4
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 3
+    },
+    "P-magnitude": {
+     "SUPPORTED": 4,
+     "CONTRADICTED": 6,
+     "NOT_COMPARABLE": 3
+    },
+    "P-none": {
+     "SUPPORTED": 20,
+     "NOT_COMPARABLE": 2
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 2
+    },
+    "P-scope": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 2
+    },
+    "P-unit": {
+     "CONTRADICTED": 3
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 6,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 9,
+    "consolidation->consolidation": 10,
+    "consolidation->scope": 1,
+    "cross_company->None": 1,
+    "cross_company->consolidation": 3,
+    "cross_company->scope": 1,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 7,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1
+   }
+  },
+  "C4": {
+   "n": 88,
+   "accuracy": 0.6364,
+   "acc_ci": [
+    0.5321,
+    0.7292
+   ],
+   "overclaim": 0.3958,
+   "overclaim_n": 48,
+   "abstention": {
+    "precision": 0.6905,
+    "recall": 0.6042,
+    "f1": 0.6444,
+    "tp": 29,
+    "fp": 13,
+    "fn": 19
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.7,
+     "n": 20,
+     "ci": [
+      0.481,
+      0.8545
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.4,
+     "n": 5,
+     "ci": [
+      0.1176,
+      0.7693
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.5,
+     "n": 10,
+     "ci": [
+      0.2366,
+      0.7634
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6154,
+     "n": 13,
+     "ci": [
+      0.3552,
+      0.8229
+     ]
+    },
+    "P-none": {
+     "acc": 0.6818,
+     "n": 22,
+     "ci": [
+      0.4732,
+      0.8364
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 2,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.8889,
+     "n": 9,
+     "ci": [
+      0.565,
+      0.9801
+     ]
+    },
+    "P-unit": {
+     "acc": 0.6667,
+     "n": 3,
+     "ci": [
+      0.2077,
+      0.9385
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "SUPPORTED": 6,
+     "NOT_COMPARABLE": 14
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 3,
+     "NOT_COMPARABLE": 2
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 5,
+     "NOT_COMPARABLE": 5
+    },
+    "P-magnitude": {
+     "SUPPORTED": 4,
+     "NOT_COMPARABLE": 5,
+     "CONTRADICTED": 4
+    },
+    "P-none": {
+     "SUPPORTED": 15,
+     "NOT_COMPARABLE": 7
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 2
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 8,
+     "CONTRADICTED": 1
+    },
+    "P-unit": {
+     "CONTRADICTED": 2,
+     "NOT_COMPARABLE": 1
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 5,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->consolidation": 1,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 6,
+    "consolidation->consolidation": 14,
+    "cross_company->None": 3,
+    "cross_company->consolidation": 2,
+    "indistinguishable_metric->None": 4,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 2,
+    "scope->scope": 6
+   }
+  }
+ },
+ "ablation_paired_n": 99,
+ "ablation_paired": {
+  "C3": {
+   "n": 99,
+   "accuracy": 0.6162,
+   "acc_ci": [
+    0.5177,
+    0.7059
+   ],
+   "overclaim": 0.5769,
+   "overclaim_n": 52,
+   "abstention": {
+    "precision": 0.7857,
+    "recall": 0.4231,
+    "f1": 0.55,
+    "tp": 22,
+    "fp": 6,
+    "fn": 30
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.5238,
+     "n": 21,
+     "ci": [
+      0.3237,
+      0.7166
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.6667,
+     "n": 6,
+     "ci": [
+      0.3,
+      0.9032
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3636,
+     "n": 11,
+     "ci": [
+      0.1517,
+      0.6462
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.6875,
+     "n": 16,
+     "ci": [
+      0.444,
+      0.8584
+     ]
+    },
+    "P-none": {
+     "acc": 0.875,
+     "n": 24,
+     "ci": [
+      0.69,
+      0.9566
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 3,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.3,
+     "n": 10,
+     "ci": [
+      0.1078,
+      0.6032
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 11,
+     "SUPPORTED": 10
+    },
+    "P-crosscompany": {
+     "CONTRADICTED": 2,
+     "NOT_COMPARABLE": 4
+    },
+    "P-indistinct": {
+     "SUPPORTED": 4
+    },
+    "P-intensity": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 4
+    },
+    "P-magnitude": {
+     "CONTRADICTED": 10,
+     "SUPPORTED": 3,
+     "NOT_COMPARABLE": 3
+    },
+    "P-none": {
+     "SUPPORTED": 21,
+     "NOT_COMPARABLE": 3
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 3
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 3,
+     "CONTRADICTED": 7
+    },
+    "P-unit": {
+     "CONTRADICTED": 4
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 1,
+     "n": 1,
+     "rate": 1.0,
+     "ci": [
+      0.2065,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 6,
+    "absolute_vs_intensity->absolute_vs_intensity": 3,
+    "absolute_vs_intensity->consolidation": 1,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 10,
+    "consolidation->consolidation": 10,
+    "consolidation->scope": 1,
+    "cross_company->None": 2,
+    "cross_company->consolidation": 3,
+    "cross_company->scope": 1,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 7,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1,
+    "scope->indistinguishable_metric": 1
+   }
+  },
+  "C3-calc": {
+   "n": 99,
+   "accuracy": 0.5758,
+   "acc_ci": [
+    0.4774,
+    0.6685
+   ],
+   "overclaim": 0.5769,
+   "overclaim_n": 52,
+   "abstention": {
+    "precision": 0.6667,
+    "recall": 0.4231,
+    "f1": 0.5176,
+    "tp": 22,
+    "fp": 11,
+    "fn": 30
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 0.5238,
+     "n": 21,
+     "ci": [
+      0.3237,
+      0.7166
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 0.8333,
+     "n": 6,
+     "ci": [
+      0.4365,
+      0.9699
+     ]
+    },
+    "P-indistinct": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.3636,
+     "n": 11,
+     "ci": [
+      0.1517,
+      0.6462
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.5625,
+     "n": 16,
+     "ci": [
+      0.3318,
+      0.769
+     ]
+    },
+    "P-none": {
+     "acc": 0.7917,
+     "n": 24,
+     "ci": [
+      0.5953,
+      0.9076
+     ]
+    },
+    "P-null": {
+     "acc": 1.0,
+     "n": 3,
+     "ci": [
+      0.4385,
+      1.0
+     ]
+    },
+    "P-scope": {
+     "acc": 0.2,
+     "n": 10,
+     "ci": [
+      0.0567,
+      0.5098
+     ]
+    },
+    "P-unit": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 11,
+     "SUPPORTED": 10
+    },
+    "P-crosscompany": {
+     "NOT_COMPARABLE": 5,
+     "CONTRADICTED": 1
+    },
+    "P-indistinct": {
+     "SUPPORTED": 3,
+     "CONTRADICTED": 1
+    },
+    "P-intensity": {
+     "CONTRADICTED": 7,
+     "NOT_COMPARABLE": 4
+    },
+    "P-magnitude": {
+     "SUPPORTED": 3,
+     "NOT_COMPARABLE": 7,
+     "CONTRADICTED": 6
+    },
+    "P-none": {
+     "SUPPORTED": 19,
+     "NOT_COMPARABLE": 4,
+     "CONTRADICTED": 1
+    },
+    "P-null": {
+     "NOT_APPLICABLE": 3
+    },
+    "P-scope": {
+     "CONTRADICTED": 8,
+     "NOT_COMPARABLE": 2
+    },
+    "P-unit": {
+     "CONTRADICTED": 4
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.3424,
+      1.0
+     ]
+    },
+    "0.3": {
+     "supported": 1,
+     "n": 1,
+     "rate": 1.0,
+     "ci": [
+      0.2065,
+      1.0
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 5,
+    "absolute_vs_intensity->absolute_vs_intensity": 2,
+    "absolute_vs_intensity->consolidation": 2,
+    "absolute_vs_intensity->indistinguishable_metric": 1,
+    "absolute_vs_intensity->scope": 1,
+    "consolidation->None": 10,
+    "consolidation->consolidation": 10,
+    "consolidation->scope": 1,
+    "cross_company->None": 1,
+    "cross_company->consolidation": 4,
+    "cross_company->scope": 1,
+    "indistinguishable_metric->None": 4,
+    "scope->None": 8,
+    "scope->absolute_vs_intensity": 1,
+    "scope->consolidation": 1
+   }
+  },
+  "C3-filing_lookup": {
+   "n": 99,
+   "accuracy": 0.5152,
+   "acc_ci": [
+    0.418,
+    0.6112
+   ],
+   "overclaim": 0.0,
+   "overclaim_n": 52,
+   "abstention": {
+    "precision": 0.5312,
+    "recall": 0.9808,
+    "f1": 0.6892,
+    "tp": 51,
+    "fp": 45,
+    "fn": 1
+   },
+   "by_ptype": {
+    "P-consolidation": {
+     "acc": 1.0,
+     "n": 21,
+     "ci": [
+      0.8454,
+      1.0
+     ]
+    },
+    "P-crosscompany": {
+     "acc": 1.0,
+     "n": 6,
+     "ci": [
+      0.6097,
+      1.0
+     ]
+    },
+    "P-indistinct": {
+     "acc": 1.0,
+     "n": 4,
+     "ci": [
+      0.5101,
+      1.0
+     ]
+    },
+    "P-intensity": {
+     "acc": 0.9091,
+     "n": 11,
+     "ci": [
+      0.6226,
+      0.9838
+     ]
+    },
+    "P-magnitude": {
+     "acc": 0.0,
+     "n": 16,
+     "ci": [
+      0.0,
+      0.1936
+     ]
+    },
+    "P-none": {
+     "acc": 0.0,
+     "n": 24,
+     "ci": [
+      0.0,
+      0.138
+     ]
+    },
+    "P-null": {
+     "acc": 0.0,
+     "n": 3,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "P-scope": {
+     "acc": 1.0,
+     "n": 10,
+     "ci": [
+      0.7225,
+      1.0
+     ]
+    },
+    "P-unit": {
+     "acc": 0.0,
+     "n": 4,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    }
+   },
+   "pred_dist_by_ptype": {
+    "P-consolidation": {
+     "NOT_COMPARABLE": 21
+    },
+    "P-crosscompany": {
+     "NOT_COMPARABLE": 6
+    },
+    "P-indistinct": {
+     "NOT_COMPARABLE": 4
+    },
+    "P-intensity": {
+     "NOT_COMPARABLE": 10,
+     "NOT_APPLICABLE": 1
+    },
+    "P-magnitude": {
+     "NOT_COMPARABLE": 14,
+     "NOT_APPLICABLE": 2
+    },
+    "P-none": {
+     "NOT_COMPARABLE": 24
+    },
+    "P-null": {
+     "NOT_COMPARABLE": 3
+    },
+    "P-scope": {
+     "NOT_COMPARABLE": 10
+    },
+    "P-unit": {
+     "NOT_COMPARABLE": 4
+    }
+   },
+   "tolerance": {
+    "0.1": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    },
+    "0.3": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "0.9": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "1.2": {
+     "supported": 0,
+     "n": 3,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.5615
+     ]
+    },
+    "2.0": {
+     "supported": 0,
+     "n": 1,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.7935
+     ]
+    },
+    "5.0": {
+     "supported": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.4899
+     ]
+    },
+    "15.0": {
+     "supported": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576
+     ]
+    }
+   },
+   "mismatch_confusion": {
+    "absolute_vs_intensity->None": 9,
+    "absolute_vs_intensity->indistinguishable_metric": 2,
+    "consolidation->None": 20,
+    "consolidation->indistinguishable_metric": 1,
+    "cross_company->None": 5,
+    "cross_company->indistinguishable_metric": 1,
+    "indistinguishable_metric->None": 3,
+    "indistinguishable_metric->scope": 1,
+    "scope->None": 9,
+    "scope->indistinguishable_metric": 1
+   }
+  }
+ }
+}

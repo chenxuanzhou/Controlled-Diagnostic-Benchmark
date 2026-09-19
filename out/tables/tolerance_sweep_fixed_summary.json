@@ -1,0 +1,91 @@
+{
+ "n_items": 128,
+ "n_with_verdict": 121,
+ "below_eps": {
+  "supported": 56,
+  "n": 61,
+  "dist": {
+   "SUPPORTED": 56,
+   "NOT_COMPARABLE": 4,
+   "CONTRADICTED": 1
+  },
+  "ci": [
+   0.822,
+   0.964
+  ]
+ },
+ "above_eps": {
+  "supported": 0,
+  "n": 60,
+  "dist": {
+   "CONTRADICTED": 41,
+   "NOT_COMPARABLE": 19
+  },
+  "ci": [
+   0.0,
+   0.06
+  ]
+ },
+ "signed": {
+  "0.1+": {
+   "SUPPORTED": 7,
+   "NOT_COMPARABLE": 1
+  },
+  "0.1-": {
+   "SUPPORTED": 8
+  },
+  "0.3+": {
+   "SUPPORTED": 8
+  },
+  "0.3-": {
+   "SUPPORTED": 7,
+   "CONTRADICTED": 1
+  },
+  "0.6+": {
+   "SUPPORTED": 6
+  },
+  "0.6-": {
+   "SUPPORTED": 6,
+   "NOT_COMPARABLE": 2
+  },
+  "0.9+": {
+   "SUPPORTED": 8
+  },
+  "0.9-": {
+   "SUPPORTED": 6,
+   "NOT_COMPARABLE": 1
+  },
+  "1.2+": {
+   "CONTRADICTED": 5,
+   "NOT_COMPARABLE": 3
+  },
+  "1.2-": {
+   "CONTRADICTED": 5,
+   "NOT_COMPARABLE": 1
+  },
+  "2.0+": {
+   "CONTRADICTED": 5,
+   "NOT_COMPARABLE": 3
+  },
+  "2.0-": {
+   "NOT_COMPARABLE": 2,
+   "CONTRADICTED": 6
+  },
+  "5.0+": {
+   "CONTRADICTED": 4,
+   "NOT_COMPARABLE": 3
+  },
+  "5.0-": {
+   "CONTRADICTED": 6,
+   "NOT_COMPARABLE": 2
+  },
+  "15.0+": {
+   "NOT_COMPARABLE": 4,
+   "CONTRADICTED": 4
+  },
+  "15.0-": {
+   "CONTRADICTED": 6,
+   "NOT_COMPARABLE": 1
+  }
+ }
+}

@@ -1,0 +1,220 @@
+{
+ "kimi-k2.7-code|C0": {
+  "n": 235,
+  "errors": 6,
+  "empty_content": 39,
+  "unparsed": 40,
+  "n_scored": 189,
+  "accuracy": 0.6614,
+  "accuracy_wilson95": [
+   0.5913,
+   0.725
+  ],
+  "overclaim_rate": 0.41,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 0.7241,
+    "n": 29
+   },
+   "P-crosscompany": {
+    "acc": 0.75,
+    "n": 8
+   },
+   "P-indistinct": {
+    "acc": 0.125,
+    "n": 8
+   },
+   "P-intensity": {
+    "acc": 0.4444,
+    "n": 18
+   },
+   "P-magnitude": {
+    "acc": 0.675,
+    "n": 40
+   },
+   "P-none": {
+    "acc": 0.84,
+    "n": 50
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 10
+   },
+   "P-scope": {
+    "acc": 0.125,
+    "n": 16
+   },
+   "P-unit": {
+    "acc": 0.8,
+    "n": 10
+   }
+  },
+  "tolerance_curve": {
+   "0.1": {
+    "supported_rate": 1.0,
+    "n": 2
+   },
+   "0.3": {
+    "supported_rate": 0.6667,
+    "n": 3
+   },
+   "0.6": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.5,
+    "n": 6
+   },
+   "1.2": {
+    "supported_rate": 0.0,
+    "n": 11
+   },
+   "2.0": {
+    "supported_rate": 0.0,
+    "n": 6
+   },
+   "5.0": {
+    "supported_rate": 0.0,
+    "n": 8
+   },
+   "15.0": {
+    "supported_rate": 0.0,
+    "n": 3
+   }
+  },
+  "mismatch_confusion": {
+   "consolidation->consolidation": 17,
+   "scope->None": 14,
+   "absolute_vs_intensity->None": 11,
+   "consolidation->None": 8,
+   "indistinguishable_metric->None": 7,
+   "cross_company->consolidation": 6,
+   "absolute_vs_intensity->absolute_vs_intensity": 4,
+   "consolidation->scope": 3,
+   "cross_company->None": 2,
+   "absolute_vs_intensity->consolidation": 2,
+   "scope->absolute_vs_intensity": 1,
+   "scope->consolidation": 1,
+   "consolidation->absolute_vs_intensity": 1,
+   "indistinguishable_metric->scope": 1,
+   "absolute_vs_intensity->scope": 1
+  },
+  "tokens": {
+   "in_mean": 1463,
+   "out_mean": 1899,
+   "reasoning_share": 0.909
+  },
+  "latency_s_mean": 49.6
+ },
+ "kimi-k2.7-code|C1": {
+  "n": 235,
+  "errors": 8,
+  "empty_content": 34,
+  "unparsed": 34,
+  "n_scored": 193,
+  "accuracy": 0.6736,
+  "accuracy_wilson95": [
+   0.6046,
+   0.7358
+  ],
+  "overclaim_rate": 0.449,
+  "by_perturbation": {
+   "P-consolidation": {
+    "acc": 0.7333,
+    "n": 30
+   },
+   "P-crosscompany": {
+    "acc": 0.75,
+    "n": 8
+   },
+   "P-indistinct": {
+    "acc": 0.125,
+    "n": 8
+   },
+   "P-intensity": {
+    "acc": 0.35,
+    "n": 20
+   },
+   "P-magnitude": {
+    "acc": 0.6364,
+    "n": 33
+   },
+   "P-none": {
+    "acc": 0.9057,
+    "n": 53
+   },
+   "P-null": {
+    "acc": 1.0,
+    "n": 12
+   },
+   "P-scope": {
+    "acc": 0.2632,
+    "n": 19
+   },
+   "P-unit": {
+    "acc": 0.8,
+    "n": 10
+   }
+  },
+  "tolerance_curve": {
+   "0.1": {
+    "supported_rate": 1.0,
+    "n": 2
+   },
+   "0.3": {
+    "supported_rate": 1.0,
+    "n": 2
+   },
+   "0.6": {
+    "supported_rate": 1.0,
+    "n": 1
+   },
+   "0.9": {
+    "supported_rate": 0.5,
+    "n": 6
+   },
+   "1.2": {
+    "supported_rate": 0.0,
+    "n": 6
+   },
+   "2.0": {
+    "supported_rate": 0.0,
+    "n": 4
+   },
+   "5.0": {
+    "supported_rate": 0.0,
+    "n": 6
+   },
+   "15.0": {
+    "supported_rate": 0.0,
+    "n": 6
+   }
+  },
+  "mismatch_confusion": {
+   "consolidation->consolidation": 18,
+   "scope->None": 13,
+   "absolute_vs_intensity->None": 12,
+   "consolidation->None": 8,
+   "indistinguishable_metric->None": 7,
+   "absolute_vs_intensity->absolute_vs_intensity": 5,
+   "cross_company->consolidation": 5,
+   "scope->scope": 4,
+   "consolidation->scope": 3,
+   "cross_company->None": 2,
+   "absolute_vs_intensity->scope": 2,
+   "absolute_vs_intensity->consolidation": 1,
+   "scope->consolidation": 1,
+   "scope->absolute_vs_intensity": 1,
+   "consolidation->absolute_vs_intensity": 1,
+   "indistinguishable_metric->consolidation": 1,
+   "cross_company->absolute_vs_intensity": 1
+  },
+  "tokens": {
+   "in_mean": 2631,
+   "out_mean": 1879,
+   "reasoning_share": 0.902
+  },
+  "latency_s_mean": 50.6
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "n_items": 128,
+ "n_with_verdict": 119,
+ "anchor_in_evidence": 98,
+ "anchor_cut_off": 30,
+ "above|anchor_cut_off": {
+  "dist": {
+   "NOT_COMPARABLE": 8,
+   "CONTRADICTED": 4
+  },
+  "supported": 0,
+  "n": 12,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.243
+  ]
+ },
+ "above|anchor_in_evidence": {
+  "dist": {
+   "CONTRADICTED": 29,
+   "NOT_COMPARABLE": 18
+  },
+  "supported": 0,
+  "n": 47,
+  "rate": 0.0,
+  "ci": [
+   0.0,
+   0.076
+  ]
+ },
+ "below|anchor_cut_off": {
+  "dist": {
+   "SUPPORTED": 10,
+   "NOT_COMPARABLE": 5
+  },
+  "supported": 10,
+  "n": 15,
+  "rate": 0.6667,
+  "ci": [
+   0.417,
+   0.848
+  ]
+ },
+ "below|anchor_in_evidence": {
+  "dist": {
+   "SUPPORTED": 39,
+   "NOT_COMPARABLE": 5,
+   "CONTRADICTED": 1
+  },
+  "supported": 39,
+  "n": 45,
+  "rate": 0.8667,
+  "ci": [
+   0.738,
+   0.937
+  ]
+ }
+}

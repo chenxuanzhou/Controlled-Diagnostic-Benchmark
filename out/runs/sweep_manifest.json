@@ -1,0 +1,15 @@
+{
+ "prompt_hashes": {
+  "rule_3_sha256_16": "033c967f5e599b09",
+  "system_sha256_16": "bfafdc5b0cfd8df5"
+ },
+ "base_url": "https://api.moonshot.cn/v1",
+ "seed": 20260914,
+ "ts": 1788099618.3871086,
+ "n_items": 128,
+ "model": "kimi-k2.7-code",
+ "conditions": [
+  "C1"
+ ],
+ "balance_before": 50.592712
+}

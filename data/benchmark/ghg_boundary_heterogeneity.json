@@ -1,0 +1,216 @@
+{
+ "n_companies": 35,
+ "note": "descriptive only, NOT gold: inventorying scope 1 and scope 2 over different boundaries is permitted, so a mismatch is an observation, not a rule violation (INV-8).",
+ "rows": [
+  {
+   "company_id": "1213",
+   "industry": "食品工業",
+   "scope1_boundary": "已完成母公司",
+   "scope2_boundary": "已完成母公司,本公司平鎮廠鎮數據"
+  },
+  {
+   "company_id": "1457",
+   "industry": "紡織纖維",
+   "scope1_boundary": "已完成母公司,以「宜進公司及子公司(光明絲織廠股份有限公司、宏洲纖維工業股份有限公司、億東纖維股份有限公司、欣懋投資股份有限公司、大田國際開發股份有限公司、大宜國際開發股份有限公司)台北公司」為盤查範圍。",
+   "scope2_boundary": "已完成母公司,以「宜進公司及子公司(光明絲織廠股份有限公司、宏洲纖維工業股份有限公司、億東纖維股份有限公司、欣懋投資股份有限公司、大田國際開發股份有限公司、大宜國際開發股份有限公司)台北公司」為盤查範圍"
+  },
+  {
+   "company_id": "1460",
+   "industry": "",
+   "scope1_boundary": "已完成合併財務報表之母子公司",
+   "scope2_boundary": "已完成母公司,已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "1465",
+   "industry": "紡織纖維",
+   "scope1_boundary": "已完成母公司,表格之「資料涵蓋範圍」為「偉全所有廠區」，未明確對應為僅母公司或合併母子公司，故選擇「其他」。",
+   "scope2_boundary": "已完成母公司,參考資料的資料涵蓋範圍為「偉全所有廠區」，未明確界定為僅母公司或合併母子公司，故選擇「其他」。"
+  },
+  {
+   "company_id": "1477",
+   "industry": "紡織纖維",
+   "scope1_boundary": "114年度完成母公司(台北總部及嘉義研發中心)及位於越南、柬埔寨、印尼與中國10家海外子公司，合計共17個營運據點的範疇一、二、三盤查與第三方查證。\n1.\tMakalot Industrial Co., Ltd. \n2.\tMoha Garments Co., Ltd. \n3.\tMakalot Garments (Cambodia) Co., Ltd.\n4.\tMakalot Garments (Vietnam) Co., Ltd.\n5.\tTriple Garment (Vietnam) Co., Ltd.\n6.\tLeader Garment (Vietnam) Co., Ltd.\n7.\tPT Glory Industrial Semarang\n8.\tPT Starlight Garment Semarang\n9.\tJiaxing Suntex Garment Co., Ltd.\n10.\tJiaxing Rising Garments Co., Ltd.\n11.\tMakalot El Salvador S.A. de C.V.",
+   "scope2_boundary": "已完成母公司,114年度完成母公司(台北總部及嘉義研發中心)及位於越南、柬埔寨、印尼與中國10家海外子公司，合計共17個營運據點的範疇一、二、三盤查與第三方查證。\n1.\tMakalot Industrial Co., Ltd. \n2.\tMoha Garments Co., Ltd. \n3.\tMakalot Garments (Cambodia) Co., Ltd.\n4.\tMakalot Garments (Vietnam) Co., Ltd.\n5.\tTriple Garment (Vietnam) Co., Ltd.\n6.\tLeader Garment (Vietnam) Co., Ltd.\n7.\tPT Glory Industrial Semarang\n8.\tPT Starlight Garment Semarang\n9.\tJiaxing Suntex Garment Co., Ltd.\n10.\tJiaxing Rising Garments Co., Ltd.\n11.\tMakalot El Salvador S.A. de C.V."
+  },
+  {
+   "company_id": "1513",
+   "industry": "電機機械",
+   "scope1_boundary": "已完成合併財務報表之母子公司",
+   "scope2_boundary": "已完成合併財務報表之母子公司,子公司溫室氣體盤查排放量未確信"
+  },
+  {
+   "company_id": "1717",
+   "industry": "化學工業",
+   "scope1_boundary": "已完成合併財務報表之母子公司",
+   "scope2_boundary": "已完成母公司"
+  },
+  {
+   "company_id": "1736",
+   "industry": "運動休閒",
+   "scope1_boundary": "已完成母公司,喬山健身器材(上海)有限公司\n喬山健康科技(上海)有限公司\nJohnson Health Industry (Viet Nam) Company Limited\nJohnson Health Tech. Australia Pty., Ltd.\nJohnson Industrial do Brasil Ltda.\nJohnson Health Technologies Canada Commercial Inc.\n喬山網絡科技(上海)有限公司\nJohnson Health Tech CZ & SK a.s.\nJohnson Health Tech Denmark Aps\nJohnson Health Tech France\n富技優器醫療健康科技(上海)有限公司\nFuji Medical Instruments Mfg. Co., Ltd.\nFujiiryoki, Inc.\nJohnson Health Tech. GmbH\nJohnson Health Tech Hellas SA\n喬山健康科技(香港)有限公司\nJohnson Health Tech Hungary KFT.\nPT Johnson Health Tech Indonesia\nJohnson Health Tech India Pvt Ltd.\nJohnson Health Tech Italia S.P.A.\nJohnson Health Tech Retail Inc.\nJohnson Health Tech Trading, Inc.\nJohnson Health Tech Japan Co., Ltd.\nJohnson Health Tech Korea Co., Ltd.\nJohnson Health Technologies, S.A. de C.V.\nJohnson Fitness (Malaysia) Sdn. Bhd.\nJohnson Health Tech. North America, Inc.\nJohnson Health Tech NA Manufacturing LLC\nJohnson Health Tech. Netherland B.V.\nJohnson Health Tech Philippines, Inc.\nJohnson Health Tech. Poland Sp. z o.o.\nJohnson Health Tech Romania SA\nJohnson Health Tech Rus Limited Liability Company\nJohnson Health Tech SA (PTY) Ltd.\nJohnson Health Technologies Ibérica, SL\nJohnson Health Tech. (Schweiz) GmbH\nJohnson Health Tech. (Thailand) Co., Ltd.\nJohnson Health Tech Turkey Spor Ve Saglik Malzemeleri Ticaret Anonim Sirketi\nJohnson Health Tech UAE LLC\nJohnson Health Tech. UK Ltd.\nJohnson Health Tech Digital UK Limited\nJohnson Health Tech (Vietnam) Company Limited\nWorld of Leasing GmbH\n喬山(上海)文化有限公司\n喬山餐飲管理(上海)有限公司\n達亞生活事業股份有限公司",
+   "scope2_boundary": "已完成母公司,喬山健康科技股份有限公司\n喬山健身器材(上海)有限公司\n喬山健康科技(上海)有限公司\nJohnson Health Industry (Viet Nam) Company Limited\nJohnson Health Tech. Australia Pty., Ltd.\nJohnson Industrial do Brasil Ltda.\nJohnson Health Technologies Canada Commercial Inc.\n喬山網絡科技(上海)有限公司\nJohnson Health Tech CZ & SK a.s.\nJohnson Health Tech Denmark Aps\nJohnson Health Tech France\n富技優器醫療健康科技(上海)有限公司\nFuji Medical Instruments Mfg. Co., Ltd.\nFujiiryoki, Inc.\nJohnson Health Tech. GmbH\nJohnson Health Tech Hellas SA\n喬山健康科技(香港)有限公司\nJohnson Health Tech Hungary KFT.\nPT Johnson Health Tech Indonesia\nJohnson Health Tech India Pvt Ltd.\nJohnson Health Tech Italia S.P.A.\nJohnson Health Tech Retail Inc.\nJohnson Health Tech Trading, Inc.\nJohnson Health Tech Japan Co., Ltd.\nJohnson Health Tech Korea Co., Ltd.\nJohnson Health Technologies, S.A. de C.V.\nJohnson Fitness (Malaysia) Sdn. Bhd.\nJohnson Health Tech. North America, Inc.\nJohnson Health Tech NA Manufacturing LLC\nJohnson Health Tech. Netherland B.V.\nJohnson Health Tech Philippines, Inc.\nJohnson Health Tech. Poland Sp. z o.o.\nJohnson Health Tech Romania SA\nJohnson Health Tech Rus Limited Liability Company\nJohnson Health Tech SA (PTY) Ltd.\nJohnson Health Technologies Ibérica, SL\nJohnson Health Tech. (Schweiz) GmbH\nJohnson Health Tech. (Thailand) Co., Ltd.\nJohnson Health Tech Turkey Spor Ve Saglik Malzemeleri Ticaret Anonim Sirketi\nJohnson Health Tech UAE LLC\nJohnson Health Tech. UK Ltd.\nJohnson Health Tech Digital UK Limited\nJohnson Health Tech (Vietnam) Company Limited\nWorld of Leasing GmbH\n喬山(上海)文化有限公司\n喬山餐飲管理(上海)有限公司\n達亞生活事業股份有限公司"
+  },
+  {
+   "company_id": "2314",
+   "industry": "通信網路業",
+   "scope1_boundary": "已完成合併財務報表之母子公司,表一同時揭露114年範疇一之母公司與子公司數據並列合計，顯示資料邊界涵蓋母子公司。",
+   "scope2_boundary": "已完成合併財務報表之母子公司,表一同時揭露114年範疇二之母公司與子公司數據並列合計，顯示資料邊界涵蓋母子公司。"
+  },
+  {
+   "company_id": "2363",
+   "industry": "半導體業",
+   "scope1_boundary": "母公司：矽統科技股份有限公司、子公司：聯暻半導體(山東)有限公司、紘康科技股份有限公司、宏康伊科技(深圳)有限公司 、佳思捷(杭州)電子有限公司、華矽半導體股份有限公司及科骏康电子(深圳)有限公司",
+   "scope2_boundary": "已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "2393",
+   "industry": "光電業",
+   "scope1_boundary": "已完成母公司,樹林營運總部（含土城研發廠）、苗栗苑裡廠、苗栗銅鑼廠、蘇州吳江廠及廣東中山廠",
+   "scope2_boundary": "樹林營運總部（含土城研發廠）、苗栗苑裡廠、苗栗銅鑼廠、蘇州吳江廠及廣東中山廠"
+  },
+  {
+   "company_id": "2415",
+   "industry": "",
+   "scope1_boundary": "已完成母公司,子公司:錩新科技(越南)股份有限公司 ,富川精密(海陽)責任有限公司\n",
+   "scope2_boundary": "已完成母公司,子公司:錩新科技(越南)股份有限公司 ,富川精密(海陽)責任有限公司"
+  },
+  {
+   "company_id": "2464",
+   "industry": "其他電子業",
+   "scope1_boundary": "本公司以下營運據點：中科、台北、南科、盟立自動化股份有限公司(竹科總部)、銅科",
+   "scope2_boundary": "已完成母公司,本公司以下營運據點：中科、台北、南科、盟立自動化股份有限公司(竹科總部)、銅科"
+  },
+  {
+   "company_id": "3010",
+   "industry": "電子通路業",
+   "scope1_boundary": "已完成母公司,完成子公司全順及國軒",
+   "scope2_boundary": "已完成母公司, 完成子公司全順及國軒"
+  },
+  {
+   "company_id": "3017",
+   "industry": "電腦及週邊設備業",
+   "scope1_boundary": "合併財務報表之母子公司(不含富世達及其子公司)",
+   "scope2_boundary": "合併財務報表之母子公司(但不含富世達及其子公司)"
+  },
+  {
+   "company_id": "3168",
+   "industry": "光電業",
+   "scope1_boundary": "已完成母公司,眾福科技（蘇州）有限公司",
+   "scope2_boundary": "已完成母公司,眾福科技（蘇州）有限公司\n"
+  },
+  {
+   "company_id": "4178",
+   "industry": "",
+   "scope1_boundary": "N/A",
+   "scope2_boundary": "已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "4190",
+   "industry": "",
+   "scope1_boundary": "已完成母公司,臺灣子公司直接排放當量:251.6974公噸CO2e/年",
+   "scope2_boundary": "已完成母公司,臺灣子公司及分公司來自輸人電力的間接排放當量:3723.0412 公噸CO2e/年\n馬來西亞子公司及分公司來自輸人電力的間接排放當量:249.2475 公噸C02e/年\n"
+  },
+  {
+   "company_id": "4552",
+   "industry": "電機機械",
+   "scope1_boundary": "已完成母公司,已完成合併財務報表之母子公司,同表以「集團」為資料涵蓋範圍，推定為合併報表層級之母子公司範圍。",
+   "scope2_boundary": "已完成合併財務報表之母子公司,表中資料涵蓋範圍以「集團」呈現，代表合併母子公司，且為2025年之數據。"
+  },
+  {
+   "company_id": "4935",
+   "industry": "光電業",
+   "scope1_boundary": "已完成母公司,Solid State Display Limited、SSEL、茂林光電科技股份有限公司及銅鑼分公司、上海向隆電子科技有限公司",
+   "scope2_boundary": "已完成母公司,Solid State Display Limited、茂林光電科技股份有限公司及銅鑼分公司、上海向隆電子科技有限公司"
+  },
+  {
+   "company_id": "4989",
+   "industry": "",
+   "scope1_boundary": "已完成合併財務報表之母子公司",
+   "scope2_boundary": "本資料範疇涵蓋李長榮科技之生產製程與營運邊界，範疇與 2025 年永續報告書（ESG Report）組織邊界一致。"
+  },
+  {
+   "company_id": "5007",
+   "industry": "鋼鐵工業",
+   "scope1_boundary": "已完成合併財務報表之母子公司",
+   "scope2_boundary": "已完成母公司"
+  },
+  {
+   "company_id": "5907",
+   "industry": "貿易百貨",
+   "scope1_boundary": "N/A",
+   "scope2_boundary": "已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "6177",
+   "industry": "建材營造",
+   "scope1_boundary": "已完成母公司,本公司以下營運據點：台中市-新高鐵段、台中何安段工地、台中賴厝廍工地、台南武東二工地、後壁田三段工地、高雄大公段工地、高雄後壁二工地、軟橋段工地、新洲美工地、達麗米樂-達米秀、達麗米樂開發股份有限公司、達麗建設-台中辦公室、達麗建設-台南辦公室、達麗建設-高雄辦公室、達麗建設事業股份有限公司、寶信營造股份有限公司",
+   "scope2_boundary": "已完成母公司,本公司以下營運據點：台中市-新高鐵段、台中何安段工地、台中賴厝廍工地、台南武東二工地、後壁田三段工地、高雄大公段工地、高雄後壁二工地、軟橋段工地、新洲美工地、達麗米樂-達米秀、達麗建設-台中辦公室、達麗建設-台南辦公室、達麗建設-高雄辦公室、達麗建設事業股份有限公司、寶信營造股份有限公司"
+  },
+  {
+   "company_id": "6213",
+   "industry": "電子零組件業",
+   "scope1_boundary": "已完成母公司,聯茂電子股份有限公司台灣廠及中國廠區(無錫廠、東莞廠、廣州廠及江西廠)",
+   "scope2_boundary": "已完成母公司,萬泰認證,北京大陸航星質量認證,中京認證,中標研國聯(北京)認證"
+  },
+  {
+   "company_id": "6591",
+   "industry": "電腦及週邊設備業",
+   "scope1_boundary": "已完成母公司,有實質營運活動之所有子公司皆已完成碳盤查。\n",
+   "scope2_boundary": "已完成母公司,有實質營運活動之所有子公司皆已完成碳盤查。"
+  },
+  {
+   "company_id": "6668",
+   "industry": "光電業",
+   "scope1_boundary": "已完成母公司",
+   "scope2_boundary": "已完成母公司,已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "7730",
+   "industry": "半導體業",
+   "scope1_boundary": "已完成母公司,資料涵蓋範圍揭露為「台南市安南區科技五路100號」，屬單一場址，非僅母公司或合併母子公司層級。",
+   "scope2_boundary": "已完成母公司,資料涵蓋範圍僅揭露「台南市安南區科技五路100號」，未明確標示為母公司或合併母子公司範圍。"
+  },
+  {
+   "company_id": "7818",
+   "industry": "綠能環保",
+   "scope1_boundary": "已完成母公司,資料載明「台灣廠已獲 ISO 14001 認證，且已推行自主溫室氣體盤查，並持續每年盤查/查證」，未明確說明盤查邊界為母公司或合併母子公司，故判定為其他。",
+   "scope2_boundary": "已完成母公司"
+  },
+  {
+   "company_id": "8162",
+   "industry": "半導體業",
+   "scope1_boundary": "已完成本公司所有營運據點。(公司無子公司",
+   "scope2_boundary": "本公司所有營運據點。(公司無子公司)"
+  },
+  {
+   "company_id": "8201",
+   "industry": "其他電子業",
+   "scope1_boundary": "已完成母公司,瑞芳廠、西安分公司之盤查，其餘未納入。",
+   "scope2_boundary": "已完成母公司,北投辦公室、瑞芳廠、西安分公司之盤查，其餘未納入。"
+  },
+  {
+   "company_id": "8271",
+   "industry": "半導體業",
+   "scope1_boundary": "已完成合併財務報表之母子公司,資料載明「盤點區域：以宇瞻新北市土城區總部為盤點區域」，顯示僅以總部據點為邊界，非「母公司」全範圍亦非「合併母子公司」，故選擇「其他」。",
+   "scope2_boundary": "已完成合併財務報表之母子公司"
+  },
+  {
+   "company_id": "8422",
+   "industry": "綠能環保",
+   "scope1_boundary": "已完成母公司,本公司以下營運據點：可寧衛股份有限公司（母公司）、上評資源循環股份有限公司、大倉實業股份有限公司、大創綠能股份有限公司、大寧股份有限公司、可寧衛企業股份有限公司、吉鼎材料股份有限公司、吉衛股份有限公司、岡聯事業股份有限公司",
+   "scope2_boundary": "已完成母公司,盤查公司別：可寧衛股份有限公司（母公司）、上評資源循環股份有限公司、大倉實業股份有限公司、大創綠能股份有限公司、大寧股份有限公司、可寧衛企業股份有限公司、吉鼎材料股份有限公司、吉衛股份有限公司、岡聯事業股份有限公司"
+  },
+  {
+   "company_id": "9924",
+   "industry": "居家生活",
+   "scope1_boundary": "除母公司外，含多家子公司與一孫公司",
+   "scope2_boundary": "114年盤查範圍為「母公司及主要成員」，並註明涵蓋子公司與一孫公司，屬部分合併成員而非僅母公司或全部母子公司，故選「其他」。"
+  },
+  {
+   "company_id": "9934",
+   "industry": "居家生活",
+   "scope1_boundary": "已完成母公司,A.1.3 僅母公司GUIC 數據 B. 子公司:山東​美林衛浴有限公司-​ 30,574​.8084 公噸CO2e",
+   "scope2_boundary": "已完成母公司,​A.2.3 僅母公司GUIC 數據 B. 子公司:山東​美林衛浴有限公司-​ 29​,108.9125 公噸CO2e"
+  }
+ ]
+}

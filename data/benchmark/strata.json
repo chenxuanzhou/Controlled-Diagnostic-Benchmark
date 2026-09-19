@@ -1,0 +1,39 @@
+{
+ "seed": 20260914,
+ "eval_tb": {
+  "n": 235,
+  "by_type": {
+   "P-null": 12,
+   "P-indistinct": 9,
+   "P-consolidation": 35,
+   "P-none": 59,
+   "P-intensity": 26,
+   "P-scope": 21,
+   "P-magnitude": 47,
+   "P-unit": 14,
+   "P-crosscompany": 12
+  }
+ },
+ "eval_sweep": {
+  "n": 128,
+  "by_delta_cell": {
+   "0.1%_neg": 8,
+   "0.1%_pos": 8,
+   "0.3%_neg": 8,
+   "0.3%_pos": 8,
+   "0.6%_neg": 8,
+   "0.6%_pos": 8,
+   "0.9%_neg": 8,
+   "0.9%_pos": 8,
+   "1.2%_neg": 8,
+   "1.2%_pos": 8,
+   "2.0%_neg": 8,
+   "2.0%_pos": 8,
+   "5.0%_neg": 8,
+   "5.0%_pos": 8,
+   "15.0%_neg": 8,
+   "15.0%_pos": 8
+  }
+ },
+ "per_cell_floor": 8
+}

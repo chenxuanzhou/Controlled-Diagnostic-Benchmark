@@ -1,0 +1,6 @@
+pymupdf
+pdfplumber
+openai
+requests
+scipy
+matplotlib

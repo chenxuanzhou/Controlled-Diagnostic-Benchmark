@@ -1,0 +1,18 @@
+{
+ "tasks_active": [
+  "T-A",
+  "T-B",
+  "T-C",
+  "descriptive"
+ ],
+ "tasks_dropped": [
+  "T-D"
+ ],
+ "T-D_drop_reason": "Gate G-EX column-reconstruction repair rate could not be established at >=0.90 because no ground truth for table row structure exists without human annotation. Spec v2 附錄C names T-D the first task to abandon; dropping it does not block the mainline.",
+ "downstream_effects": {
+  "TASK-08R": "remove the T-D row (200 samples, 1,200 calls)",
+  "TASK-09R": "no change (T-D had no figure of its own)",
+  "TASK-11R": "§3 drops one task; ~0.3 page freed, helps the 15.2-page overrun",
+  "degradation_ladder": "L1 now equals the previous L2 in task coverage"
+ }
+}
