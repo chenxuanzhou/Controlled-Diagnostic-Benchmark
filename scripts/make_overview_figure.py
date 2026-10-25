@@ -16,7 +16,7 @@ OUT = pathlib.Path("paper/figures")
 FONT = "Helvetica, Arial, Liberation Sans, sans-serif"
 BLUE, ORANGE, GREEN, VERM, GREY = "#0072B2", "#E69F00", "#009E73", "#D55E00", "#5F5F5F"
 T_BLUE, T_ORANGE, T_GREEN, T_VERM = "#E3F0F8", "#FCF1D9", "#DFF3EC", "#FBE6D9"
-MIN = 2.1   # smallest font, mm
+MIN = 2.12  # smallest font, mm (6.01 pt; Springer asks for >= 6 pt)
 
 
 def R(v):

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite the paper below (under review; check back for the final reference)."
+message: "If you use this benchmark, please cite the paper below (accepted at TAAI 2026; the proceedings reference will be added)."
 title: "A Controlled Diagnostic Benchmark for Cross-Source Verification of Traditional Chinese ESG Disclosures"
 authors:
   - family-names: Zhou
@@ -13,7 +13,7 @@ authors:
     orcid: "https://orcid.org/0000-0001-7179-5208"
 date-released: 2026-09-19
 preferred-citation:
-  type: unpublished
+  type: conference-paper
   title: "Matching Digits or Quantities? A Controlled Diagnostic Benchmark for Cross-Source Verification of Traditional Chinese ESG Disclosures"
   authors:
     - family-names: Zhou
@@ -23,4 +23,6 @@ preferred-citation:
     - family-names: Liang
       given-names: Christy Jie
   year: 2026
-  notes: "Manuscript under review."
+  conference:
+    name: "TAAI 2026: International Conference on Technologies and Applications of Artificial Intelligence"
+  notes: "Accepted at TAAI 2026 (International Track)."

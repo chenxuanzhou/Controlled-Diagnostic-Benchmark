@@ -8,7 +8,7 @@ the same quantity, or do only their digits agree?**
 
 Paper: *Matching Digits or Quantities? A Controlled Diagnostic Benchmark for
 Cross-Source Verification of Traditional Chinese ESG Disclosures* — C. Zhou, J. Song,
-C. J. Liang (University of Technology Sydney). Under review, 2026.
+C. J. Liang (University of Technology Sydney). Accepted at TAAI 2026.
 
 > **Read this first.** Every inconsistency in this benchmark was **injected by us**. No
 > item, gold label or model output in this repository describes the actual disclosure
@@ -70,6 +70,8 @@ pip install -r requirements.txt
 python scripts/rescore_review.py       # -> out/tables/review_r1.json     (main results, McNemar tests)
 python scripts/score_v2.py             # -> out/tables/v2_panel.json      (record-level panel, replicates, second model)
 python scripts/score_sweep_fixed.py    # -> out/tables/tolerance_sweep_fixed*.json
+python scripts/sensitivity_missing.py  # -> out/tables/sensitivity_missing.json  (missing verdicts scored as wrong / right)
+python scripts/fig6_print.py out/tables/tolerance_sweep_fixed.json fig6_tolerance.pdf   # Fig. 3 at print size
 python scripts/descriptive_study.py    # digit-exact restatement by indicator (needs the PDFs)
 ```
 
@@ -107,4 +109,4 @@ terms of its source platform. Sustainability reports are not included.
 
 ## Citation
 
-See `CITATION.cff`. The paper is under review; please check back for the final reference.
+See `CITATION.cff`. The paper is accepted at TAAI 2026; the proceedings reference will be added once it is published.
